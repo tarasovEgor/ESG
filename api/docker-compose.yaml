@@ -1,0 +1,23 @@
+services:
+  database:
+    image: postgres:14.4
+    restart: always
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5432:5432
+
+  tests:
+    depends_on:
+      - database
+    build: .
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: database
+      POSTGRES_HOST: database
+      POSTGRES_PORT: 5432
+      ECHO: False
+    ports:
+      - 8000:8000

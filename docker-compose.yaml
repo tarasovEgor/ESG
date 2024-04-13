@@ -1,0 +1,276 @@
+services:
+  database:
+    image: postgres:14.4
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - /mnt/ESGdata:/var/lib/postgresql/data
+#    ports:
+#      - "5432:5432"
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "sh -c 'pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}'",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    #shm_size: 512mb
+
+  grafana:
+    depends_on:
+      - database
+    image: grafana/grafana:8.5.13
+    ports:
+      - 3000:3000
+    user: ":"
+    volumes:
+      - /grafana:/var/lib/grafana
+      - ./configs/provisioning:/etc/grafana/provisioning
+      - ./configs/provisioning/dashboards:/var/lib/grafana/dashboards
+    profiles:
+      - "grafana"
+
+#  selenium-hub:
+#    image: selenium/hub:4.5
+#    container_name: selenium-hub
+#    ports:
+#      - 4442:4442
+#      - 4443:4443
+#      - 4444:4444
+#      - 7900:7900 # to view browsers
+#    profiles:
+#      - "irecommend"
+
+#  firefox:
+#    image: selenium/node-firefox:105.0
+#    depends_on:
+#      - selenium-hub
+#    env_file:
+#      - .env
+#    profiles:
+#      - "irecommend"
+
+  api:
+    depends_on:
+      database:
+        condition: service_healthy
+    build: api
+    env_file:
+      - .env
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      POSTGRES_DB: "database"
+    ports:
+      - 8000:30930
+
+  api-https:
+    depends_on:
+      database:
+        condition: service_healthy
+    build: api
+    env_file:
+      - .env
+    command:
+      [
+        "uvicorn",
+        "app.main:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8000",
+        "--ssl-keyfile",
+        "privkey.pem",
+        "--ssl-certfile",
+        "fullchain.pem",
+      ]
+    environment:
+      POSTGRES_DB: "database"
+    ports:
+      - 443:8000
+
+  sravni-reviews-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "sravni_reviews"]
+    environment:
+      POSTGRES_DB: "sravni"
+    profiles:
+      - "parsers"
+      - "sravni"
+
+  sravni-mfo-reviews-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "sravni_mfo_reviews"]
+    environment:
+      POSTGRES_DB: "sravni_mfo"
+    profiles:
+      - "parsers"
+      - "sravni"
+
+  sravni-insurance-reviews-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "sravni_insurance_reviews"]
+    environment:
+      POSTGRES_DB: "sravni_insurance"
+    profiles:
+      - "parsers"
+      - "sravni"
+
+  banki-reviews-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "banki_reviews"]
+    environment:
+      POSTGRES_DB: "banki"
+    profiles:
+      - "parsers"
+      - "banki"
+
+  banki-news-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "banki_news"]
+    environment:
+      POSTGRES_DB: "banki"
+    profiles:
+      - "parsers"
+      - "banki"
+
+  banki-insurance-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "banki_insurance"]
+    environment:
+      POSTGRES_DB: "banki_insurance"
+    profiles:
+      - "parsers"
+      - "banki"
+
+  banki-mfo-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "banki_mfo"]
+    environment:
+      POSTGRES_DB: "banki_mfo"
+    profiles:
+      - "parsers"
+      - "banki"
+
+  banki-broker-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "banki_broker"]
+    environment:
+      POSTGRES_DB: "banki_broker"
+    profiles:
+      - "parsers"
+      - "banki"
+
+  vk-comments-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "vk_comments"]
+    environment:
+      POSTGRES_DB: "vk_comments"
+    profiles:
+      - "parsers"
+      - "vk"
+
+  vk-other-comments-parser:
+    depends_on:
+      - api
+    build: parser
+    env_file:
+      - .env
+    command: ["python", "main.py", "--site", "vk_other"]
+    environment:
+      POSTGRES_DB: "vk_other"
+    profiles:
+      - "parsers"
+      - "vk"
+
+#  irecommend-reviews-parser:
+#    depends_on:
+#      - api
+#      - selenium-hub
+#    build: parser
+#    command: ["python", "main.py", "--site", "irecommend_reviews"]
+#    environment:
+#      POSTGRES_DB: "irecommend_reviews"
+#    profiles:
+#      - "parsers"
+#      - "vk"
+
+  views:
+    depends_on:
+      - api
+      - database
+    env_file:
+      - .env
+    build:
+      context: api
+      dockerfile: Dockerfile.view
+    profiles:
+      - "views"
+
+  mdf:
+    build:
+      context: models/mdf
+      dockerfile: Dockerfile
+    command: ["python", "app/main.py", "--model", "mdf"]
+    env_file:
+      - .env
+    profiles:
+      - "mdf"
+
+  mdf-adjusted:
+    build:
+      context: models/mdf
+      dockerfile: Dockerfile
+    command: ["python", "app/main.py", "--model", "mdf_adjusted"]
+    env_file:
+      - .env
+    profiles:
+      - "mdf"
+
+  mdf-combined:
+    build:
+      context: models/mdf
+      dockerfile: Dockerfile
+    command: ["python", "app/main.py", "--model", "mdf_combined"]
+    env_file:
+      - .env
+    profiles:
+      - "mdf"

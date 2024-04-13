@@ -1,0 +1,18 @@
+services:
+  mdf:
+    build: .
+    command: [ "python", "app/main.py", "--model", "mdf"]
+    env_file:
+      - .env
+
+  mdf-adjusted:
+    build: .
+    command: [ "python", "app/main.py", "--model", "mdf_adjusted" ]
+    env_file:
+      - .env
+
+  mdf-combined:
+    build: .
+    command: [ "python", "app/main.py", "--model", "mdf_combined" ]
+    env_file:
+      - .env

@@ -1,0 +1,7 @@
+.venv
+.mypy*
+.tox
+.pytest*
+.virtual_documents
+htmlcov
+.coverage

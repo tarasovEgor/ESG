@@ -1,0 +1,164 @@
+\begin{longtblr}[caption={Запросы API\label{tbl:api_doc} }]{colspec={|X[l]|X[l]|X[l]|X[l]|},rowhead = 1,hlines}
+\textbf{Путь}&\textbf{Параметры запроса}&\textbf{Тело запроса}&\textbf{Результат запроса}\\\par
+GET\par/text/sentences&sources: array\par
+model\_id: integer\par
+limit: integer&&\{\par
+	items: [\{\par
+	sentence\_id: integer\par
+	sentence: string\par
+\}]\par
+\}\\\par
+POST\par/text/&&\{\par
+	items: [\{\par
+	source\_id: integer\par
+	date: string\par
+	title: string\par
+	text: string\par
+	bank\_id: integer\par
+	link: string\par
+	comments\_num: integer\par
+\}]\par
+	parser\_state: string\par
+	date: string\par
+\}&\\\par
+GET\par/model/&&&\{\par
+	items: [\{\par
+	id: integer\par
+	name: string\par
+	model\_type\_id: integer\par
+	model\_type: string\par
+\}]\par
+\}\\\par
+POST\par/model/&&\{\par
+	model\_name: string\par
+	model\_type: string\par
+\}&\{\par
+	model\_id: integer\par
+\}\\\par
+GET\par/model/type/&&&\{\par
+	items: [\{\par
+	id: integer\par
+	model\_type: string\par
+\}]\par
+\}\\\par
+GET\par/text\_result/item/\{text\_id\}&text\_id: integer&&\{\par
+	items: [\{\par
+	id: integer\par
+	text\_sentence\_id: integer\par
+	result: array[number]\par
+	model\_id: integer\par
+\}]\par
+\}\\\par
+POST\par/text\_result/&&\{\par
+	items: [\{\par
+	text\_result: array[number]\par
+	model\_id: integer\par
+	text\_sentence\_id: integer\par
+\}]\par
+\}&\\\par
+GET\par/source/&&&\{\par
+	items: [\{\par
+	id: integer\par
+	site: string\par
+	source\_type\_id: integer\par
+	parser\_state: string\par
+	last\_update: string\par
+\}]\par
+\}\\\par
+POST\par/source/&&\{\par
+	site: string\par
+	source\_type: string\par
+\}&\{\par
+	id: integer\par
+	site: string\par
+	source\_type\_id: integer\par
+	parser\_state: string\par
+	last\_update: string\par
+\}\\\par
+GET\par/source/item/\{source\_id\}&source\_id: integer&&\{\par
+	id: integer\par
+	site: string\par
+	source\_type\_id: integer\par
+	parser\_state: string\par
+	last\_update: string\par
+\}\\\par
+PATCH\par/source/item/\{source\_id\}&source\_id: integer&\{\par
+	parser\_state: string\par
+	last\_update: string\par
+\}&\{\par
+	id: integer\par
+	site: string\par
+	source\_type\_id: integer\par
+	parser\_state: string\par
+	last\_update: string\par
+\}\\\par
+GET\par/source/type/&&&\{\par
+	items: [\{\par
+	id: integer\par
+	name: string\par
+\}]\par
+\}\\\par
+GET\par/bank/&&&\{\par
+	items: [\{\par
+	id: integer\par
+	bank\_name: string\par
+	licence: string\par
+	description: string\par
+\}]\par
+\}\\\par
+GET\par/bank/broker&&&\{\par
+	items: [\{\par
+	id: integer\par
+	bank\_name: string\par
+	licence: string\par
+	description: string\par
+\}]\par
+\}\\\par
+GET\par/bank/insurance&&&\{\par
+	items: [\{\par
+	id: integer\par
+	bank\_name: string\par
+	licence: string\par
+	description: string\par
+\}]\par
+\}\\\par
+GET\par/bank/mfo&&&\{\par
+	items: [\{\par
+	id: integer\par
+	bank\_name: string\par
+	licence: string\par
+	description: string\par
+\}]\par
+\}\\\par
+GET\par/views/aggregate\_text\_result&start\_year: integer\par
+end\_year: integer\par
+bank\_ids: array\par
+model\_names: array\par
+source\_type: array\par
+aggregate\_by\_year: boolean\par
+index\_type: None&&\{\par
+	items: [\{\par
+	year: integer\par
+	quarter: integer\par
+	date: string\par
+	bank\_name: string\par
+	bank\_id: integer\par
+	model\_name: string\par
+	source\_type: string\par
+	index: number\par
+	index\_10\_percentile: number\par
+	index\_90\_percentile: number\par
+\}]\par
+\}\\\par
+GET\par/views/reviews\_count&start\_date: string\par
+end\_date: string\par
+source\_sites: array\par
+aggregate\_by: None&&\{\par
+	items: [\{\par
+	date: string\par
+	source\_site: string\par
+	source\_type: string\par
+	count: integer\par
+\}]\par
+\}\\
+\end{longtblr}

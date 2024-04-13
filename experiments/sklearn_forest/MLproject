@@ -1,0 +1,9 @@
+name: Forest train
+
+python_env: python_env.yaml
+
+entry_points:
+  parameters:
+    dataset: {type: str, default: 'bow'}
+  main:
+    command: python train_forest.py

@@ -1,0 +1,96 @@
+[tool.poetry]
+name = "parser"
+version = "0.1.0"
+description = ""
+authors = ["Samoed <samoed.roman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.11.1"
+requests = "^2.31"
+selenium = "^4.4.3"
+schedule = "^1.1.0"
+SQLAlchemy = "^1.4"
+pydantic = "^1.10.2"
+SQLAlchemy-Utils = "^0.38.3"
+webdriver-manager = "^3.8.3"
+numpy = "^1.23.3"
+psycopg2-binary = "^2.9.5"
+
+
+[tool.poetry.group.dev.dependencies]
+SQLAlchemy = {extras = ["mypy"], version = "^1.4"}
+flake8 = "^5.0.4"
+black = "^22.8.0"
+isort = "^5.10.1"
+mypy = "^0.991"
+types-requests = "^2.28.11"
+types-beautifulsoup4 = "^4.11.6"
+pyupgrade = "^2.38.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.0"
+coverage = {extras = ["toml"], version = "^7.0.5"}
+tox = "^4.0.17"
+pytest-cov = "^4.0.0"
+vcrpy = "^4.2.1"
+requests-mock = "^1.10.0"
+pytest-mock = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+# https://github.com/tiangolo/sqlmodel/blob/main/pyproject.toml
+[tool.mypy]
+python_version = "3.10"
+# --strict
+disallow_any_generics = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+strict_equality = true
+plugins = [
+    "sqlalchemy.ext.mypy.plugin",
+    "pydantic.mypy",
+]
+ignore_missing_imports = false
+exclude = [
+    "tests/"
+]
+# --strict end
+[[tool.mypy.overrides]]
+module = [
+    "sqlalchemy_utils",
+    "fake_useragent",
+    "schedule"
+]
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+preview = true
+exclude = '''
+/(
+    .git
+  | .venv
+  | notebooks
+  | .tox
+)/
+'''
+
+[tool.coverage.run]
+omit = ["tests"]

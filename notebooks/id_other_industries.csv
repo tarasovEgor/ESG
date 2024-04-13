@@ -1,0 +1,516 @@
+type,id,name,URL,url_sravni,url_irec,url_otz,vk,old_vk,code,bank_id
+insurance,0,Абсолют Страхование,https://www.banki.ru/insurance/companies/absolyut/,https://www.sravni.ru/strakhovaja-kompanija/absolute-insurance/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_absolyut_strahovanie_russia_moscow/2/?ysclid=ladtnnxx8o432482731,absolutins,https://vk.com/absolutins?ysclid=lak2fbpdvn279221534,absolyut,10346.0
+insurance,1,Авангард-Гарант,https://www.banki.ru/insurance/companies/avangardgarant/,https://www.sravni.ru/strakhovaja-kompanija/avangard-garant/otzyvy/,,https://otzovik.com/reviews/bank_avangard_russia_moscow/,,,avangardgarant,10333.0
+insurance,2,АИГ страховая компания,https://www.banki.ru/insurance/companies/aigstrahovayakompaniya/,https://www.sravni.ru/strakhovaja-kompanija/aig/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_aig_russia_moscow/,,,aigstrahovayakompaniya,10318.0
+insurance,3,АК Барс-Мед,https://www.banki.ru/insurance/companies/akbarsmed/,https://www.sravni.ru/strakhovaja-kompanija/bars-med/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_ak_bars-med_russia_kazan/,akbars_med,https://vk.com/akbars_med?ysclid=lak2lmxlxs589074888,akbarsmed,10451.0
+insurance,4,Ак Барс Страхование,https://www.banki.ru/insurance/companies/akbarsstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/bars-strakhovanie/otzyvy/,,,akbarsstrah,https://vk.com/akbarsstrah?ysclid=lak2m0y54g845122832,akbarsstrahovanie,10443.0
+insurance,5,АльфаСтрахование,https://www.banki.ru/insurance/companies/alfastrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/alfastrahovanie/otzyvy/,https://irecommend.ru/content/alfastrakhovanie,https://otzovik.com/reviews/kompaniya_alfastrahovanie_russia/,alfastrahru,https://vk.com/alfastrahru?ysclid=lak2mbtzfo914719768,alfastrahovanie,10344.0
+insurance,6,АльфаСтрахование-Жизнь,https://www.banki.ru/insurance/companies/alfastrahovaniezhizn/,https://www.sravni.ru/strakhovaja-kompanija/alfastrahovanie-jizn/otzyvy/,https://irecommend.ru/content/alfastrakhovanie-zhizn,https://otzovik.com/reviews/kompaniya_alfastrahovanie-zhizn_russia_zheleznogorsk/,asliferu,https://vk.com/asliferu?ysclid=lak2mlzpnf86688018,alfastrahovaniezhizn,10327.0
+insurance,7,АльфаСтрахование-ОМС,https://www.banki.ru/insurance/companies/alfastrahovanieoms/,https://www.sravni.ru/strakhovaja-kompanija/alfastrakhovanie-oms/otzyvy/,,,line.alfastrahoms,https://vk.com/line.alfastrahoms?ysclid=lak2ndaqrq989385639,alfastrahovanieoms,10291.0
+insurance,8,Альянс,https://www.banki.ru/insurance/companies/alyans/,https://www.sravni.ru/strakhovaja-kompanija/allianz/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_allianz_russia_moscow/,,,alyans,10272.0
+insurance,9,Альянс Жизнь,https://www.banki.ru/insurance/companies/alyanszhizn/,https://www.sravni.ru/strakhovaja-kompanija/alians-zhizn/otzyvy/,https://irecommend.ru/content/strakhovaya-kompaniya-alyans-zhizn,https://otzovik.com/reviews/strahovaya_kompaniya_alyans_zhizn_russia_moscow/,allianzolga,https://vk.com/allianzolga?ysclid=lak2ntgij6984027685,alyanszhizn,10290.0
+insurance,10,АМТ Страхование,https://www.banki.ru/insurance/companies/amtstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/amt-strakhovanie/otzyvy/,,,amtins,https://vk.com/amtins?ysclid=lak2o7yujj130775027,amtstrahovanie,10328.0
+insurance,11,Армеец,https://www.banki.ru/insurance/companies/armeetss/,https://www.sravni.ru/strakhovaja-kompanija/itil/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_armeec_russia_kazan/,,,armeetss,10273.0
+insurance,12,Арсенал МС,https://www.banki.ru/insurance/companies/arsenal-ms/,https://www.sravni.ru/strakhovaja-kompanija/krymskaja-strakhovaja-medicinskaja-kompanija/otzyvy/,,,,,arsenal-ms,10303.0
+insurance,13,Арсеналъ,https://www.banki.ru/insurance/companies/arsenal/,https://www.sravni.ru/strakhovaja-kompanija/arsenal/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_arsenal/,,,arsenal,10301.0
+insurance,14,Аскомед,https://www.banki.ru/insurance/companies/askomed/,https://www.sravni.ru/strakhovaja-kompanija/askomed/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_askomed_russia_samara/,askomed_oms,https://vk.com/askomed_oms?ysclid=lak2p90aj6839324429,askomed,10439.0
+insurance,15,АСКОР,https://www.banki.ru/insurance/companies/askor/,https://www.sravni.ru/strakhovaja-kompanija/askor/otzyvy/,,,,,askor,10320.0
+insurance,16,АСКО-Центр,https://www.banki.ru/insurance/companies/askotsentr/,https://www.sravni.ru/strakhovaja-kompanija/asko-centr/otzyvy/,,,asko_kursk,https://vk.com/asko_kursk?ysclid=lak2pqkquu738841993,askotsentr,10267.0
+insurance,17,Астрамед-МС,https://www.banki.ru/insurance/companies/astramedms/,https://www.sravni.ru/strakhovaja-kompanija/astramed-ms/otzyvy/,,https://otzovik.com/reviews/strahovaya_medicinskaya_kompaniya_astramed-ms_russia_ekaterinburg/,astramedoms,https://vk.com/astramedoms?ysclid=lak2q156it884845219,astramedms,10456.0
+insurance,18,Астра-Металл,https://www.banki.ru/insurance/companies/astrametall/,https://www.sravni.ru/strakhovaja-kompanija/astra-metall/otzyvy/,,https://otzovik.com/reviews/medicinskaya_strahovaya_kompaniya_astra-metall_russia_chelyabinsk/,astrametall,https://vk.com/astrametall?ysclid=lak2qljh3e43514017,astrametall,
+insurance,19,Астро-Волга,https://www.banki.ru/insurance/companies/astrovolga/,https://www.sravni.ru/strakhovaja-kompanija/astro-volga/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_astro-volga_russia_samara/,astro.volga,https://vk.com/astro.volga?ysclid=lak2qtfl8w164541232,astrovolga,10441.0
+insurance,20,Атрадиус Рус Кредитное Страхование,https://www.banki.ru/insurance/companies/atriadiusruskreditnoestrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/atradius-rus/otzyvy/,,,,,atriadiusruskreditnoestrahovanie,10288.0
+insurance,21,БАСК,https://www.banki.ru/insurance/companies/bask/,https://www.sravni.ru/strakhovaja-kompanija/bask/otzyvy/,,,,,bask,10469.0
+insurance,22,Бестиншур,https://www.banki.ru/insurance/companies/rezerv/,https://www.sravni.ru/strakhovaja-kompanija/sk-bestinshur/otzyvy/,,,,,rezerv,10269.0
+insurance,23,БКС Страхование жизни,https://www.banki.ru/insurance/companies/bksstrahovaniezhizni/,https://www.sravni.ru/strakhovaja-kompanija/bcslife/otzyvy/,,,skbcslife,https://vk.com/skbcslife?ysclid=lak2t0ue9t534123865,bksstrahovaniezhizni,
+insurance,24,Боровицкое страховое общество,https://www.banki.ru/insurance/companies/borovitsskoestrahovoeobsschestvo/,https://www.sravni.ru/strakhovaja-kompanija/borovickoe-strakhovoe-obshhestvo/otzyvy/,,,,,borovitsskoestrahovoeobsschestvo,10286.0
+insurance,25,Британский Страховой Дом,https://www.banki.ru/insurance/companies/britanskiystrahovoydom/,https://www.sravni.ru/strakhovaja-kompanija/britanskiy-strahovoy-dom/otzyvy/,,,bsdins,https://vk.com/bsdins?ysclid=lak2tyq5zv891536798,britanskiystrahovoydom,10279.0
+insurance,26,Вита-страхование,https://www.banki.ru/insurance/companies/vitastrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/vita-strakhovanie/otzyvy/,,,vita.strahovanie,https://vk.com/vita.strahovanie?ysclid=lak2uer2pw265239746,vitastrahovanie,10459.0
+insurance,27,ВСК,https://www.banki.ru/insurance/companies/vsk/,https://www.sravni.ru/strakhovaja-kompanija/vsk/otzyvy/,,https://otzovik.com/reviews/vsk-po_programme_strahovaniya_viezzhayuschih_za_rubezh/,vsk.insurance,https://vk.com/vsk.insurance?ysclid=lak2up9thp88055092,vsk,10254.0
+insurance,28,ВСК-Линия жизни,https://www.banki.ru/insurance/companies/vskliniyazhizni/,https://www.sravni.ru/strakhovaja-kompanija/vsk--linija-zhizni/otzyvy/,https://irecommend.ru/content/ooo-vsk-liniya-zhizni,https://otzovik.com/reviews/strahovaya_kompaniya_vsk_liniya_zhizni_russia_moscow/,vsk.life,https://vk.com/vsk.life?ysclid=lak2v054yu617265385,vskliniyazhizni,10263.0
+insurance,29,Газпром Страхование,https://www.banki.ru/insurance/companies/vtbstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/gazprom-strakhovanie/otzyvy/,,,,,vtbstrahovanie,10314.0
+insurance,30,Гелиос,https://www.banki.ru/insurance/companies/gelios/,https://www.sravni.ru/strakhovaja-kompanija/gelios/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_gelios_russia_moscow/,gelios.insurance,https://vk.com/gelios.insurance?ysclid=lak2vl4z35143329737,gelios,10433.0
+insurance,31,Геополис,https://www.banki.ru/insurance/companies/geopolislife/,https://www.sravni.ru/strakhovaja-kompanija/geopolis/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_geopolis_russia_moscow/,,,geopolislife,10343.0
+insurance,32,Городская страховая медицинская компания (ГСМК),https://www.banki.ru/insurance/companies/gsmk/,https://www.sravni.ru/strakhovaja-kompanija/gorodskaja-strakhovaja-medicinskaja-kompanija/otzyvy/,,https://otzovik.com/reviews/strahovaya_medicinskaya_kompaniya_gsmk_russia_sankt-peterburg/,public179710449,https://vk.com/public179710449?ysclid=lak2wboghl269834257,gsmk,10420.0
+insurance,33,Государственная cтраховая медицинская компания «Забайкалмедстрах»,https://www.banki.ru/insurance/companies/zabaikalmedstrah/,https://www.sravni.ru/strakhovaja-kompanija/zabajkalmedstrakh/otzyvy/,,,,,zabaikalmedstrah,10467.0
+insurance,34,Гранта,https://www.banki.ru/insurance/companies/granta/,https://www.sravni.ru/strakhovaja-kompanija/granta/otzyvy/,,,,,granta,10448.0
+insurance,35,Группа Ренессанс Страхование,https://www.banki.ru/insurance/companies/grupparenessansstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/renessans-strahovanie/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_renessans_strahovanie_russia_moscow/,renins,https://vk.com/renins?ysclid=lak2x6u9zp589188283,grupparenessansstrahovanie,10280.0
+insurance,36,Группа страховых компаний «Югория»,https://www.banki.ru/insurance/companies/yugoriya/,https://www.sravni.ru/strakhovaja-kompanija/yugoriya/otzyvy/,https://irecommend.ru/content/yugoriya,https://otzovik.com/reviews/gosudarstvennaya_strahovaya_kompaniya_yugoriya_russia/,ugoria24,https://vk.com/ugoria24?ysclid=lak2xetxjv972444389,yugoriya,10458.0
+insurance,37,ГУТА-Страхование,https://www.banki.ru/insurance/companies/gutastrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/guta-strahovanie/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_guta-strahovanie_russia/,gutainsurance,https://vk.com/gutainsurance?ysclid=lak2xmy0mo827616478,gutastrahovanie,10294.0
+insurance,38,Д2 Страхование,https://www.banki.ru/insurance/companies/d2strahovanie/,https://www.sravni.ru/strakhovaja-kompanija/d2-strakhovanie/otzyvy/,,,d2insur_public,https://work.vk.com/d2insur_public,d2strahovanie,10465.0
+insurance,39,Двадцать первый век,https://www.banki.ru/insurance/companies/dvadtssatpervyiyvek/,https://www.sravni.ru/strakhovaja-kompanija/dvadcat-pervyy-vek/otzyvy/,,,mc21vek,https://vk.com/mc21vek?ysclid=lak2yoxegz288773419,dvadtssatpervyiyvek,10419.0
+insurance,40,ДЕЛО ЖИЗНИ (НСГ Страхование жизни),https://www.banki.ru/insurance/companies/delozhizni/,https://www.sravni.ru/strakhovaja-kompanija/delo-zhizni/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_delo_zhizni_russia_moscow/,prolifeofficial,https://vk.com/prolifeofficial?ysclid=lak2z0a4nr878061375,delozhizni,10300.0
+insurance,41,Джиайси перестрахование,https://www.banki.ru/insurance/companies/gic/,,,,wall-67134385_271,https://vk.com/wall-67134385_271?ysclid=lak2zbi8kd383070102,gic,
+insurance,42,Доминанта,https://www.banki.ru/insurance/companies/dominanta/,https://www.sravni.ru/strakhovaja-kompanija/dominanta/otzyvy/,,,,,dominanta,10283.0
+insurance,43,Екатеринбург,https://www.banki.ru/insurance/companies/ekaterinburg/,https://www.sravni.ru/strakhovaja-kompanija/ekaterinburg_sk/otzyvy/,,,,,ekaterinburg,10461.0
+insurance,44,Заполярье,https://www.banki.ru/insurance/companies/zapolyare/,https://www.sravni.ru/strakhovaja-kompanija/zapoljare/otzyvy/,,,,,zapolyare,10457.0
+insurance,45,Зетта Страхование,https://www.banki.ru/insurance/companies/zettastrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/zetta/otzyvy/,,https://otzovik.com/reviews/kompaniya_zetta_strahovanie_russia_moscow/,zetta_ins,https://vk.com/zetta_ins?ysclid=lak2zy7cr4694964403,zettastrahovanie,10258.0
+insurance,46,Ингосстрах,https://www.banki.ru/insurance/companies/ingosstrah/,https://www.sravni.ru/strakhovaja-kompanija/ingosstrah/otzyvy/,https://irecommend.ru/content/ingosstrakh,https://otzovik.com/reviews/strahovaya_kompaniya_ingosstrah_russia/,ingos9565555,https://vk.com/ingos9565555?ysclid=lak306ki2j643555702,ingosstrah,10265.0
+insurance,47,Ингосстрах-Жизнь,https://www.banki.ru/insurance/companies/ingosstrahzhizn/,https://www.sravni.ru/strakhovaja-kompanija/ingosstrah-jizn/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_ingosstrah-zhizn_russia/,lifeingosstrakh,https://vk.com/lifeingosstrakh?ysclid=lak30f8pyk907742627,ingosstrahzhizn,10329.0
+insurance,48,Ингосстрах-М,https://www.banki.ru/insurance/companies/ingosstrahm/,https://www.sravni.ru/strakhovaja-kompanija/ingosstrakh-m/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_ingosstrah-m_russia/,ingosstrakh_m,https://vk.com/ingosstrakh_m?ysclid=lak30onh93379538777,ingosstrahm,10326.0
+insurance,49,Инертек,https://www.banki.ru/insurance/companies/inertek/,https://www.sravni.ru/strakhovaja-kompanija/inertek/otzyvy/,,,,,inertek,10414.0
+insurance,50,Инсайт,https://www.banki.ru/insurance/companies/insightins/,https://www.sravni.ru/strakhovaja-kompanija/nsightins/otzyvy/,,,,,insightins,10270.0
+insurance,51,Интач Страхование,https://www.banki.ru/insurance/companies/intouchstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/intouch/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_intach_russia_moscow/,,,intouchstrahovanie,
+insurance,52,Интери,https://www.banki.ru/insurance/companies/interi/,https://www.sravni.ru/strakhovaja-kompanija/interi/otzyvy/,,,,,interi,10349.0
+insurance,53,Капитал Life,https://www.banki.ru/insurance/companies/kaplife/,https://www.sravni.ru/strakhovaja-kompanija/kapitallifestrahovanie/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_kapital_life_russia_novosibirsk/,kaplife,https://vk.com/kaplife?ysclid=lak31sm6v7806720363,kaplife,10264.0
+insurance,54,Капитал МС (РГС-Медицина),https://www.banki.ru/insurance/companies/rgsmeditssina/,https://www.sravni.ru/strakhovaja-kompanija/capital-mc/otzyvy/,,https://otzovik.com/reviews/kompaniya_kapital_medicinskoe_strahovanie_russia_volzhskiy/,kapmed,https://vk.com/kapmed?ysclid=lak324kpei792011845,rgsmeditssina,10284.0
+insurance,55,Капитал-Полис,https://www.banki.ru/insurance/companies/kapitalpolis/,https://www.sravni.ru/strakhovaja-kompanija/kapital-polis/otzyvy/,https://irecommend.ru/content/kapital-polis,https://otzovik.com/reviews/strahovaya_kompaniya_kapital_polis_russia_sankt-peterburg/,capitalpolis,https://vk.com/capitalpolis?ysclid=lak32ji1u5512540417,kapitalpolis,10422.0
+insurance,56,Кофас Рус Страховая Компания,https://www.banki.ru/insurance/companies/kofasrusstrahovayakompaniya/,https://www.sravni.ru/strakhovaja-kompanija/kofas-rus/otzyvy/,,,,,kofasrusstrahovayakompaniya,10266.0
+insurance,57,Кредендо - Ингосстрах Кредитное Страхование,https://www.banki.ru/insurance/companies/kredendo-ingosstrahkreditnoestrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/ingosstrakh-kreditnoe-strakhovanie/otzyvy/,,,,,kredendo-ingosstrahkreditnoestrahovanie,10297.0
+insurance,58,Кредит Европа Лайф,https://www.banki.ru/insurance/companies/kreditevropalayf/,https://www.sravni.ru/strakhovaja-kompanija/kredit-evropa-lajf/otzyvy/,,,,,kreditevropalayf,10345.0
+insurance,59,Крымская первая страховая компания (КПСК),https://www.banki.ru/insurance/companies/kryimskayapervayastrahovayakompaniya/,https://www.sravni.ru/strakhovaja-kompanija/krymskaja-pervaja-strakhovaja-kompanija/otzyvy/,,,krym_psk,https://vk.com/krym_psk?ysclid=lak33rmtm358676761,kryimskayapervayastrahovayakompaniya,10434.0
+insurance,60,Лексгарант,https://www.banki.ru/insurance/companies/leksgarant/,https://www.sravni.ru/strakhovaja-kompanija/leksgarant/otzyvy/,,,,,leksgarant,10342.0
+insurance,61,МАКС,https://www.banki.ru/insurance/companies/maks/,https://www.sravni.ru/strakhovaja-kompanija/maks/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_maks_russia_moscow/,,,maks,10341.0
+insurance,62,МАКС-Жизнь,https://www.banki.ru/insurance/companies/maksstrahovaniezhizni/,https://www.sravni.ru/strakhovaja-kompanija/maks-strakhovanie-zhizni/otzyvy/,,,makc.life,https://vk.com/makc.life?ysclid=lak34fqots713457853,maksstrahovaniezhizni,10276.0
+insurance,63,Манго Иншуринг,https://www.banki.ru/insurance/companies/mango/,https://www.sravni.ru/strakhovaja-kompanija/mango/otzyvy/,https://irecommend.ru/content/mango-8,https://otzovik.com/reviews/strahovaya_kompaniya_mango_strahovanie_russia_moscow/,mangotechsurance,https://vk.com/mangotechsurance?ysclid=lak34r3vnj650734436,mango,
+insurance,64,Мегарусс-Д,https://www.banki.ru/insurance/companies/megarussd/,https://www.sravni.ru/strakhovaja-kompanija/megaruss-d/otzyvy/,,,megarus_d,https://vk.com/megarus_d?ysclid=lak34zpz2b820146751,megarussd,10307.0
+insurance,65,Медицинская акционерная страховая компания (МАКС-М),https://www.banki.ru/insurance/companies/makcm/,https://www.sravni.ru/strakhovaja-kompanija/maks-m/otzyvy/,,https://otzovik.com/reviews/strahovaya_medicinskaya_kompaniya_maks_m_russia_moscow/,makc.group,https://vk.com/makc.group?ysclid=lak35tpaou318696735,makcm,10334.0
+insurance,66,Медицинская страховая компания «ИНКО-Мед»,https://www.banki.ru/insurance/companies/meditssinskayainkomed/,https://www.sravni.ru/strakhovaja-kompanija/inko-med/otzyvy/,,,inko_med_group,https://vk.com/inko_med_group?ysclid=lak363ghag417013619,meditssinskayainkomed,10302.0
+insurance,67,Медицинская страховая компания «Медстрах»,https://www.banki.ru/insurance/companies/meditssinskayamedstrah/,https://www.sravni.ru/strakhovaja-kompanija/medstrah/otzyvy/,,,medstrakh,https://vk.com/medstrakh?ysclid=lak36cms75336660754,meditssinskayamedstrah,10347.0
+insurance,68,Медэкспресс,https://www.banki.ru/insurance/companies/medjekspress/,https://www.sravni.ru/strakhovaja-kompanija/medekspress/otzyvy/,,https://otzovik.com/reviews/strahovoe_agentstvo_medekspress_russia_sankt-peterburg/,,,medjekspress,10416.0
+insurance,69,Международная страховая группа,https://www.banki.ru/insurance/companies/mezhdunarodnayastrahovayagruppa/,https://www.sravni.ru/strakhovaja-kompanija/msg/otzyvy/,,,msg_ins,https://vk.com/msg_ins?ysclid=lak36tovab94736236,mezhdunarodnayastrahovayagruppa,10304.0
+insurance,70,Международная страховая компания «АйАйСи»,https://www.banki.ru/insurance/companies/mezhdunarodnayaayaysi/,https://www.sravni.ru/strakhovaja-kompanija/ajajsi/otzyvy/,,,ayayasi,https://vk.com/ayayasi?ysclid=lak378l72e527667553,mezhdunarodnayaayaysi,10299.0
+insurance,71,Независимая страховая группа,https://www.banki.ru/insurance/companies/nezavisimayastrahovayagruppa/,https://www.sravni.ru/strakhovaja-kompanija/ooonsg/otzyvy/,,,nsg_ins,https://vk.com/nsg_ins?ysclid=lak37h04s0652526662,nezavisimayastrahovayagruppa,10262.0
+insurance,72,НИК,https://www.banki.ru/insurance/companies/nik/,https://www.sravni.ru/strakhovaja-kompanija/nik/otzyvy/,,,,,nik,10444.0
+insurance,73,НКО «ВОВС»,https://www.banki.ru/insurance/companies/v-vpovs/,,,,,,v-vpovs,
+insurance,74,НКО «МОВС»,https://www.banki.ru/insurance/companies/nkomovs/,,,,,,nkomovs,10425.0
+insurance,75,НКО «Национальное общество взаимного страхования» («НОВС»),https://www.banki.ru/insurance/companies/nko-novs/,,,,,,nko-novs,10438.0
+insurance,76,НКО ПОВС «Взаимопомощь»,https://www.banki.ru/insurance/companies/nkopovsvzaimopomossch/,,,,,,nkopovsvzaimopomossch,10393.0
+insurance,77,НКО ПОВС «Кооперативное единство»,https://www.banki.ru/insurance/companies/ovskooperativnoeedinstvo/,,,,,,ovskooperativnoeedinstvo,10470.0
+insurance,78,НКО ПОВС «Кооп-Ресурс»,https://www.banki.ru/insurance/companies/koop-resurs/,,,,,,koop-resurs,10424.0
+insurance,79,НКО ПОВС «Ответственность»,https://www.banki.ru/insurance/companies/otvet-ins/,,,,,,otvet-ins,
+insurance,80,НКО ПОВС «Парус»,https://www.banki.ru/insurance/companies/nkoparus/,,,,,,nkoparus,
+insurance,81,НКО ПОВС «РТ - ВС»,https://www.banki.ru/insurance/companies/rt-ovs/,,,,,,rt-ovs,
+insurance,82,НКО ПОВС «Северная столица»,https://www.banki.ru/insurance/companies/micnc/,,,,,,micnc,
+insurance,83,НКО ПОВС «Смартстрах»,https://www.banki.ru/insurance/companies/ovs1/,,,,,,ovs1,10390.0
+insurance,84,НКО ПОВС «Содружество»,https://www.banki.ru/insurance/companies/nkopovssodruzhestvo/,,,,,,nkopovssodruzhestvo,10399.0
+insurance,85,НКО ПОВС «Страховой дом «Платинум»,https://www.banki.ru/insurance/companies/nkopovsstrahovoydomplatinum/,,https://irecommend.ru/content/strakhovoi-dom-platinum-2,,,,nkopovsstrahovoydomplatinum,10427.0
+insurance,86,НКО «ПОВСТО»,https://www.banki.ru/insurance/companies/povsto/,,,,,,povsto,
+insurance,87,НКО ПОВС «Уютный Дом-1»,https://www.banki.ru/insurance/companies/uyutnyjdom-1/,,,,,,uyutnyjdom-1,
+insurance,88,НКО ПОВС «Эталон»,https://www.banki.ru/insurance/companies/etalon-ins/,,,,,,etalon-ins,10397.0
+insurance,89,Новый Уренгой,https://www.banki.ru/insurance/companies/novyiyurengoy/,https://www.sravni.ru/strakhovaja-kompanija/sk-novyj-urengoj/otzyvy/,,,,,novyiyurengoy,10462.0
+insurance,90,Объединенная страховая компания,https://www.banki.ru/insurance/companies/obedinennayastrahovayakompaniya/,https://www.sravni.ru/strakhovaja-kompanija/obiedinennaya-sk/otzyvy/,https://irecommend.ru/content/obedinennaya-strakhovaya-kompaniya,https://otzovik.com/reviews/obedinennaya_strahovaya_kompaniya_russia_sankt_peterburg/,osk__ins,https://vk.com/osk__ins?ysclid=lak3866eua496176125,obedinennayastrahovayakompaniya,10447.0
+insurance,91,Ойлер Гермес Ру,https://www.banki.ru/insurance/companies/oylergermesru/,https://www.sravni.ru/strakhovaja-kompanija/ojler-germes/otzyvy/,,,,,oylergermesru,10337.0
+insurance,92,Панацея,https://www.banki.ru/insurance/companies/panatsseya/,https://www.sravni.ru/strakhovaja-kompanija/panaceja/otzyvy/,,,,,panatsseya,10436.0
+insurance,93,Пари,https://www.banki.ru/insurance/companies/pari/,https://www.sravni.ru/strakhovaja-kompanija/pari/otzyvy/,,,skpari_ru,https://vk.com/skpari_ru?ysclid=lak38s0pk852859128,pari,10335.0
+insurance,94,Паритет-СК,https://www.banki.ru/insurance/companies/paritetsk/,https://www.sravni.ru/strakhovaja-kompanija/paritet-sk/strahovanie-nedvizhimosti/otzyvy/,,,stav.paritet,https://vk.com/stav.paritet?ysclid=lak39dun5e294216477,paritetsk,10282.0
+insurance,95,Полис-Гарант,https://www.banki.ru/insurance/companies/polisgarant/,https://www.sravni.ru/strakhovaja-kompanija/polis-garant/otzyvy/,,,polisgarant,https://vk.com/polisgarant?ysclid=lak39nntpk598934953,polisgarant,10255.0
+insurance,96,ППФ Страхование жизни,https://www.banki.ru/insurance/companies/ppfstrahovaniezhizni/,https://www.sravni.ru/strakhovaja-kompanija/ppf-strah-zhizn/otzyvy/,https://irecommend.ru/content/nakopit-i-zashchitit,https://otzovik.com/reviews/strahovaya_kompaniya_ppf_strahovanie_zhizni_russia_moscow/,ppf_life,https://vk.com/ppf_life?ysclid=lak39vfgdm999862339,ppfstrahovaniezhizni,10287.0
+insurance,97,Проминстрах,https://www.banki.ru/insurance/companies/prominstrah/,https://www.sravni.ru/strakhovaja-kompanija/prominstrah/otzyvy/,,,,,prominstrah,10324.0
+insurance,98,Райффайзен Лайф,https://www.banki.ru/insurance/companies/rayffayzenlayf/,https://www.sravni.ru/strakhovaja-kompanija/rajffajzen-lajf/otzyvy/,,,rajffajzenlajf,https://vk.com/rajffajzenlajf?ysclid=lak3ab4d2q574956626,rayffayzenlayf,10275.0
+insurance,99,Ренессанс Жизнь,https://www.banki.ru/insurance/companies/renessanszhizn/,https://www.sravni.ru/strakhovaja-kompanija/renessans-zhizn/otzyvy/,https://irecommend.ru/content/strakhovaya-kompaniya-renessans-zhizn,https://otzovik.com/reviews/strahovaya_kompaniya_renessans_zhizn_russia_sankt-peterburg/,renlife_official,https://vk.com/renlife_official?ysclid=lak3aj6itt884206265,renessanszhizn,10316.0
+insurance,100,РЕСО-Гарантия,https://www.banki.ru/insurance/companies/resogarantiya/,https://www.sravni.ru/strakhovaja-kompanija/reso-garantiya/otzyvy/,https://irecommend.ru/content/reso-garantiya,https://otzovik.com/reviews/strahovaya_kompaniya_reso-garantiya/,reso,https://vk.com/reso?ysclid=lak3ave6ny750515629,resogarantiya,10292.0
+insurance,101,"РЕСО-Гарантия, ОСЖ",https://www.banki.ru/insurance/companies/reso-garantiyaoszh/,https://www.sravni.ru/strakhovaja-kompanija/oszh-reso-garantija/otzyvy/,,https://otzovik.com/reviews/ooo_oszh_reso-garantiya/,,,reso-garantiyaoszh,10312.0
+insurance,102,РЕСО-Мед,https://www.banki.ru/insurance/companies/resomed/,https://www.sravni.ru/strakhovaja-kompanija/reso-med/otzyvy/,https://irecommend.ru/content/strakhovaya-meditsinskaya-kompaniya-reso-med,https://otzovik.com/reviews/strahovaya_medicinskaya_kompaniya_reso-med_russia_sankt-peterburg/,resomed,https://vk.com/resomed?ysclid=lak3bglvog824604889,resomed,10277.0
+insurance,103,РЕСО-Шанс,https://www.banki.ru/insurance/companies/resoshans/,https://www.sravni.ru/strakhovaja-kompanija/resoshans/otzyvy/,,,,,resoshans,10261.0
+insurance,104,РНКБ Страхование,https://www.banki.ru/insurance/companies/rncb/,https://www.sravni.ru/strakhovaja-kompanija/konstanta/otzyvy/,,,,,rncb,
+insurance,105,Росгосстрах Жизнь,https://www.banki.ru/insurance/companies/jergozhizn/,https://www.sravni.ru/strakhovaja-kompanija/rosgosstrakhzhizn/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_rosgosstrah-zhizn_russia_salavat/,,,jergozhizn,10296.0
+insurance,106,Росгосстрах (СК ПАО),https://www.banki.ru/insurance/companies/skrosgosstrah/,https://www.sravni.ru/strakhovaja-kompanija/rosgosstrah/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_rosgosstrah/,rgstrakh,https://vk.com/rgstrakh?ysclid=lak3daj5y4629715835,skrosgosstrah,10317.0
+insurance,107,Российская национальная перестраховочная компания (РНПК),https://www.banki.ru/insurance/companies/rnpk/,,,,rnpk_ins,https://vk.com/rnpk_ins?ysclid=lak3dlosux561597579,rnpk,10256.0
+insurance,108,РСХБ-Страхование,https://www.banki.ru/insurance/companies/rshbstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/rskhb-strakhovanie/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_rshb-strahovanie/,rshbins,https://vk.com/rshbins?ysclid=lak3dx0iuz10077022,rshbstrahovanie,10319.0
+insurance,109,РСХБ-Страхование жизни,https://www.banki.ru/insurance/companies/rshb-strahovaniezhizni/,https://www.sravni.ru/strakhovaja-kompanija/rskhb-strakhovanie-zhizni/otzyvy/,,,rshb.life,https://vk.com/rshb.life?ysclid=lak3e5jbk6940282677,rshb-strahovaniezhizni,10396.0
+insurance,110,Русский Стандарт Страхование,https://www.banki.ru/insurance/companies/russkiystandartstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/zao-rss/otzyvy/,https://irecommend.ru/content/russkii-standart-strakhovanie-2,https://otzovik.com/reviews/strahovaya_kompaniya_russkiy_standart_strahovaniya_russia_moscow/,russtins,https://vk.com/russtins?ysclid=lak3fqxcc16009149,russkiystandartstrahovanie,10332.0
+insurance,111,Русское перестраховочное общество,https://www.banki.ru/insurance/companies/russkoeperestrahovochnoeobsschestvo/,,,,rpo_insurance,https://vk.com/rpo_insurance?ysclid=lak3fz6vci7381579,russkoeperestrahovochnoeobsschestvo,10322.0
+insurance,112,Русское страховое общество «Евроинс»,https://www.banki.ru/insurance/companies/russkoestrahovoeobschestvoevroins/,https://www.sravni.ru/strakhovaja-kompanija/evroins/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_evroins_russia_moscow/,euroinsrus,https://vk.com/euroinsrus?ysclid=lak3g6f8ax471683441,russkoestrahovoeobschestvoevroins,10325.0
+insurance,113,Сбербанк страхование,https://www.banki.ru/insurance/companies/sberbankstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/sberbank-strah/otzyvy/,https://irecommend.ru/content/sberbank-strakhovanie-0,https://otzovik.com/reviews/strahovaya_kompaniya_sberbank_strahovanie/,,,sberbankstrahovanie,10278.0
+insurance,114,Сбербанк страхование жизни,https://www.banki.ru/insurance/companies/sberbankstrahovaniezhizni/,https://www.sravni.ru/strakhovaja-kompanija/sberbank-strah-zhizn/otzyvy/,https://irecommend.ru/content/sk-sberbank-strakhovanie-zhizni,https://otzovik.com/reviews/strahovaya_kompaniya_sberbank_strahovanie_zhizni_russia/,,,sberbankstrahovaniezhizni,10289.0
+insurance,115,СК ГАЙДЕ,https://www.banki.ru/insurance/companies/gayde/,https://www.sravni.ru/strakhovaja-kompanija/gayde/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_gayde_russia_sankt-peterburg/,guidehins,https://vk.com/guidehins?ysclid=lak3gr7bpt616853916,gayde,10415.0
+insurance,116,СК КАРДИФ,https://www.banki.ru/insurance/companies/strahovayakompaniyakardif/,https://www.sravni.ru/strakhovaja-kompanija/sk-kardif/otzyvy/,,,cardif_russia,https://vk.com/cardif_russia?ysclid=lak3gygkcf678236559,strahovayakompaniyakardif,10259.0
+insurance,117,СКОР Перестрахование,https://www.banki.ru/insurance/companies/skorperestrahovanie/,,,,,,skorperestrahovanie,10257.0
+insurance,118,СК «Пульс»,https://www.banki.ru/insurance/companies/pulse/,https://www.sravni.ru/strakhovaja-kompanija/pulse/otzyvy/,,,scpulse,https://vk.com/scpulse?ysclid=lak3hsh7jo227798573,pulse,
+insurance,119,СМК «Сахамедстрах»,https://www.banki.ru/insurance/companies/smksahamedstrah/,https://www.sravni.ru/strakhovaja-kompanija/sakhamedstrakh/otzyvy/,,,sahamedstrah,https://vk.com/sahamedstrah?ysclid=lak3hmkkk0351839405,smksahamedstrah,10464.0
+insurance,120,СМО Восточно-страховой альянс,https://www.banki.ru/insurance/companies/vostochnostrahovoyalyans/,https://www.sravni.ru/strakhovaja-kompanija/vsa/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_vostochno-strahovoy_alyans_russia_ussuriysk/,vsa_ru,https://vk.com/vsa_ru?ysclid=lak3i1xra06264914,vostochnostrahovoyalyans,10466.0
+insurance,121,СМО «Спасение»,https://www.banki.ru/insurance/companies/smospasenie/,https://www.sravni.ru/strakhovaja-kompanija/spasenie/otzyvy/,,,,,smospasenie,10442.0
+insurance,122,СМП-Страхование,https://www.banki.ru/insurance/companies/smpstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/smp-strahovanie/strahovanie-nedvizhimosti/otzyvy/,,,smp_insurance,https://vk.com/smp_insurance?ysclid=lak3iordhk617128642,smpstrahovanie,10348.0
+insurance,123,Совкомбанк Жизнь,https://www.banki.ru/insurance/companies/sovcomlife/,https://www.sravni.ru/strakhovaja-kompanija/metlife/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_sovkombank_zhizn_russia_moscow/,,,sovcomlife,10308.0
+insurance,124,Совкомбанк Страхование,https://www.banki.ru/insurance/companies/sovcombankstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/sovcombank-strahovanie/otzyvy/,https://irecommend.ru/content/sovcombank-strakhovanie,https://otzovik.com/reviews/strahovaya_kompaniya_liberti_strahovanie_russia/,sovcomins,https://vk.com/sovcomins?ysclid=lak3j58wum771094344,sovcombankstrahovanie,10417.0
+insurance,125,Совкомбанк Страхование Жизни,https://www.banki.ru/insurance/companies/civlife/,,,,,,civlife,10336.0
+insurance,126,СОГАЗ,https://www.banki.ru/insurance/companies/sogaz/,https://www.sravni.ru/strakhovaja-kompanija/sogaz/otzyvy/,https://irecommend.ru/content/sogaz,https://otzovik.com/reviews/strahovaya_kompaniya_sogaz_russia/,sogazrussia,https://vk.com/sogazrussia?ysclid=lak3jj26ku399992408,sogaz,10321.0
+insurance,127,СОГАЗ-Жизнь,https://www.banki.ru/insurance/companies/sksogazzhizn/,https://www.sravni.ru/strakhovaja-kompanija/sogaz-jizn/otzyvy/,https://irecommend.ru/content/ooo-strakhovaya-kompaniya-sogaz-zhizn,https://otzovik.com/reviews/strahovaya_kompaniya_sogaz-zhizn_russia_moscow/,,,sksogazzhizn,10315.0
+insurance,128,СОГАЗ-Мед,https://www.banki.ru/insurance/companies/sogazmed/,https://www.sravni.ru/strakhovaja-kompanija/sogaz-med/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_sogaz-med_russia_moscow/,sogaz_med,https://vk.com/sogaz_med?ysclid=lak3jyffor963275928,sogazmed,10310.0
+insurance,129,Согласие,https://www.banki.ru/insurance/companies/soglasie/,https://www.sravni.ru/strakhovaja-kompanija/soglasie/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_soglasie_russia_moscow/,soglasie_sk,https://vk.com/soglasie_sk?ysclid=lak3k9ljwe755049516,soglasie,10281.0
+insurance,130,Согласие-Вита,https://www.banki.ru/insurance/companies/soglasievita/,https://www.sravni.ru/strakhovaja-kompanija/soglasie-vita/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_soglasie-vita_russia_moscow/,,,soglasievita,10330.0
+insurance,131,Солидарность,https://www.banki.ru/insurance/companies/solidarnost/,https://www.sravni.ru/strakhovaja-kompanija/sksolidarnost/otzyvy/,,,bank_solidarity,https://vk.com/bank_solidarity?ysclid=lak3ktqbqq431203451,solidarnost,10306.0
+insurance,132,СО «Помощь»,https://www.banki.ru/insurance/companies/sopomossch/,https://www.sravni.ru/strakhovaja-kompanija/so-pomosch/otzyvy/,,https://otzovik.com/reviews/strahovaya_kompaniya_strahovoe_obschestvo_pomosch_russia_sankt-peterburg/,,,sopomossch,10421.0
+insurance,133,Сосьете Женераль Страхование,https://www.banki.ru/insurance/companies/sosetezheneralstrahovanie/,,,,societe_general,https://vk.com/societe_general?ysclid=lak3lc96nd30563144,sosetezheneralstrahovanie,10305.0
+insurance,134,Сосьете Женераль Страхование Жизни,https://www.banki.ru/insurance/companies/sosetezheneralstrahovaniezhizni/,https://www.sravni.ru/strakhovaja-kompanija/sosete-zheneral-strakhovanie-zhizni/otzyvy/296253/,,,,,sosetezheneralstrahovaniezhizni,
+insurance,135,СО «Талисман»,https://www.banki.ru/insurance/companies/sotalisman/,https://www.sravni.ru/strakhovaja-kompanija/talisman-so/otzyvy/,,,,,sotalisman,10440.0
+insurance,136,Спасские ворота,https://www.banki.ru/insurance/companies/spasskievorota/,https://www.sravni.ru/strakhovaja-kompanija/spasskie-vorota/otzyvy/,https://irecommend.ru/content/spasskie-vorota-strakhovaya-kompaniya,https://otzovik.com/reviews/strahovaya_kompaniya_spasskie_vorota_russia_moscow/,spaskie_vorota,https://vk.com/spaskie_vorota?ysclid=lak3lyyqou310702628,spasskievorota,10311.0
+insurance,137,Страховая бизнес группа,https://www.banki.ru/insurance/companies/strahovayabiznesgruppa/,https://www.sravni.ru/strakhovaja-kompanija/strah-biznes-grupa/otzyvy/,,,ibg_ins,https://vk.com/ibg_ins?ysclid=lak3nd9oun188030126,strahovayabiznesgruppa,10268.0
+insurance,138,Страховая и перестраховочная компания «Юнити» (СПК Юнити Ре),https://www.banki.ru/insurance/companies/unityre/,,,,,,unityre,10260.0
+insurance,139,Страховая медицинская компания «Крыммедстрах»,https://www.banki.ru/insurance/companies/kryimmedstrah/,https://www.sravni.ru/strakhovaja-kompanija/krymmedstrakh/otzyvy/,,,oms_crimea,https://vk.com/oms_crimea?ysclid=lak3os9a9t983596860,kryimmedstrah,10435.0
+insurance,140,Страховая медицинская организация «Симаз-Мед»,https://www.banki.ru/insurance/companies/simaz-med/,https://www.sravni.ru/strakhovaja-kompanija/simaz-med/otzyvy/,,https://otzovik.com/reviews/strahovaya_medicinskaya_organizaciya_simaz-med_russia_novosibirsk/,,,simaz-med,10468.0
+insurance,141,Страховая фирма «Адонис»,https://www.banki.ru/insurance/companies/strahovayafirmaadonis/,https://www.sravni.ru/strakhovaja-kompanija/ooo-sf-adonis/otzyvy/,,,,,strahovayafirmaadonis,10452.0
+insurance,142,Тинькофф Страхование,https://www.banki.ru/insurance/companies/tinkoffstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/tinkoff-onlajn-strahovanie/otzyvy/,https://irecommend.ru/content/tinkoff-onlain-strakhovanie,https://otzovik.com/reviews/strahovaya_kompaniya_tinkoff_strahovanie_russia_moscow/,,,tinkoffstrahovanie,10285.0
+insurance,143,ТИТ,https://www.banki.ru/insurance/companies/tit/,https://www.sravni.ru/strakhovaja-kompanija/tit/otzyvy/,,,,,tit,10309.0
+insurance,144,Урал-Рецепт М,https://www.banki.ru/insurance/companies/uralretsseptm/,https://www.sravni.ru/strakhovaja-kompanija/ural-recept-m/otzyvy/,https://irecommend.ru/content/ooo-ural-retsept-m,,uralrecept_m,https://vk.com/uralrecept_m?ysclid=lak3pxx1ff476189213,uralretsseptm,10460.0
+insurance,145,УРАЛСИБ Жизнь,https://www.banki.ru/insurance/companies/uralsibzhizn/,https://www.sravni.ru/strakhovaja-kompanija/uralsib-jizn/otzyvy/,,https://otzovik.com/reviews/strahovaya_investicionnaya_kompaniya_uralsib_zhizn_russia/,,,uralsibzhizn,10339.0
+insurance,146,Уралсиб Страхование,https://www.banki.ru/insurance/companies/uralsibstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/uralsib-strahovanie/otzyvy/,,https://otzovik.com/reviews/strahovaya_gruppa_uralsib_russia_sankt-peterburg/,,,uralsibstrahovanie,10338.0
+insurance,147,Хоум Кредит Страхование,https://www.banki.ru/insurance/companies/houmkreditstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/khoum-kredit-strakhovanie/otzyvy/,,https://otzovik.com/reviews/houm_kredit_strahovanie/,,,houmkreditstrahovanie,10274.0
+insurance,148,Цюрих,https://www.banki.ru/insurance/companies/tsyurihnadezhnoestrahovanie/,,,https://otzovik.com/reviews/strahovaya_kompaniya_cyurih_russia/,,,tsyurihnadezhnoestrahovanie,10293.0
+insurance,149,Чабб,https://www.banki.ru/insurance/companies/chabb/,https://www.sravni.ru/strakhovaja-kompanija/chubb/otzyvy/,,,chabb_ins,https://vk.com/chabb_ins?ysclid=lak3r5b4vg771380338,chabb,10253.0
+insurance,150,Чабб Жизнь,https://www.banki.ru/insurance/companies/chabbzhizn/,https://www.sravni.ru/strakhovaja-kompanija/chubb-jizn-strahovanie/otzyvy/,,,,,chabbzhizn,10340.0
+insurance,151,Чрезвычайная страховая компания,https://www.banki.ru/insurance/companies/chrezvyichaynayastrahovayakompaniya/,https://www.sravni.ru/strakhovaja-kompanija/chrezvychaynaya-sk/otzyvy/,,,chrezvichaynaya_sk,https://vk.com/chrezvichaynaya_sk?ysclid=lak3rig8ns706934468,chrezvyichaynayastrahovayakompaniya,10295.0
+insurance,152,Чувашия-Мед,https://www.banki.ru/insurance/companies/chuvasshiyamed/,https://www.sravni.ru/strakhovaja-kompanija/chuvashija-med/otzyvy/,,,chuvmed21,https://vk.com/chuvmed21?ysclid=lak3sa9m3n965730391,chuvasshiyamed,10446.0
+insurance,153,Чувашская медицинская страховая компания (Чувашская МСК),https://www.banki.ru/insurance/companies/chuvasshskayamsk/,https://www.sravni.ru/strakhovaja-kompanija/chuvashskaja-medicinskaja-strakhovaja-kompanija/otzyvy/,,,club57027383,https://vk.com/club57027383?ysclid=lak3ry04z7507197564,chuvasshskayamsk,10449.0
+insurance,154,Чулпан,https://www.banki.ru/insurance/companies/chulpan/,https://www.sravni.ru/strakhovaja-kompanija/chylpan/otzyvy/,,,,,chulpan,10450.0
+insurance,155,Чулпан-Жизнь,https://www.banki.ru/insurance/companies/chulpanzhizn/,https://www.sravni.ru/strakhovaja-kompanija/chulpan-zhizn/otzyvy/,,,,,chulpanzhizn,10445.0
+insurance,156,Чулпан-Мед,https://www.banki.ru/insurance/companies/chulpanmed/,https://www.sravni.ru/strakhovaja-kompanija/chulpan-med/otzyvy/,,,chulpanmed,https://vk.com/chulpanmed?ysclid=lak3swh3j3476872950,chulpanmed,10453.0
+insurance,157,Экспресс-Страхование,https://www.banki.ru/insurance/companies/skjekspressstrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/ehkspress-strakhovanie/otzyvy/,,,,,skjekspressstrahovanie,10418.0
+insurance,158,Энергогарант,https://www.banki.ru/insurance/companies/jenergogarant/,https://www.sravni.ru/strakhovaja-kompanija/energogarant/otzyvy/,https://irecommend.ru/content/strakhovaya-kompaniya-energogarant,https://otzovik.com/reviews/strahovaya_kompaniya_energogarant_rf_g_moscow/,energogarant_ru,https://vk.com/energogarant_ru?ysclid=lak3tc92mr560491543,jenergogarant,10331.0
+insurance,159,ЭчДиАй Глобал,https://www.banki.ru/insurance/companies/jechdiaystrahovanie/,https://www.sravni.ru/strakhovaja-kompanija/echdiiayglobal/otzyvy/,,,,,jechdiaystrahovanie,10323.0
+insurance,160,Ю-Лайф,https://www.banki.ru/insurance/companies/ulife/,https://www.sravni.ru/strakhovaja-kompanija/yugoriya-jizn/otzyvy/,,,ulife,https://vk.com/ulife?ysclid=lak3tq018g747723738,ulife,10271.0
+broker_i_uk,0,Цифра брокер,https://www.banki.ru/investment/responses/company/broker/freedomfinance/,,,,cifra.broker,https://vk.com/cifra.broker?ysclid=lak3tzumj4669728138,freedomfinance,10217.0
+broker_i_uk,1,ИК Финам,https://www.banki.ru/investment/responses/company/broker/finam/,,,https://otzovik.com/reviews/broker_finam/,finam_ru,https://vk.com/finam_ru?ysclid=lak3u8rra2695083500,finam,10042.0
+broker_i_uk,2,Открытие Брокер,https://www.banki.ru/investment/responses/company/broker/otkryitiebroker/,,,https://otzovik.com/reviews/brokerskiy_dom_otkritie_russia_moscow/,openbroker,https://vk.com/openbroker?ysclid=lak3uiw4ed946296104,otkryitiebroker,10053.0
+broker_i_uk,3,Альфа-Инвестиции,https://www.banki.ru/investment/responses/company/broker/alfa-direkt/,,https://irecommend.ru/content/alfa-investitsii,https://otzovik.com/reviews/brokerskoe_obsluzhivanie_alfa-direkt/,,,alfa-direkt,10012.0
+broker_i_uk,4,БКС Мир Инвестиций,https://www.banki.ru/investment/responses/company/broker/bks/,,,https://otzovik.com/reviews/broker_bks_russia_moscow/,bcs_world_of_investments,https://vk.com/bcs_world_of_investments?ysclid=lak3uzngt439891343,bks,10173.0
+broker_i_uk,5,Ренессанс Брокер,https://www.banki.ru/investment/responses/company/broker/renbroker/,,,,renessans_broker,https://vk.com/renessans_broker?ysclid=lak3v75nl103134160,renbroker,10179.0
+broker_i_uk,6,ИФК Солид,https://www.banki.ru/investment/responses/company/broker/solidbroker/,,,,solidbroker,https://vk.com/solidbroker?ysclid=lak3vho5xv432182678,solidbroker,10089.0
+broker_i_uk,7,Банк ЦентроКредит,https://www.banki.ru/investment/responses/company/broker/CentroCredit/,https://www.sravni.ru/bank/centrokredit/otzyvy/,,,,,CentroCredit,10106.0
+broker_i_uk,8,Инвестиционная палата,https://www.banki.ru/investment/responses/company/broker/investitssionnayapalata/,,,,investpalata,https://vk.com/investpalata?ysclid=lak3vz7psz340152402,investitssionnayapalata,10169.0
+broker_i_uk,9,Ак Барс Финанс,https://www.banki.ru/investment/responses/company/broker/akbarsfinance/,,,,akbars_finance,https://vk.com/akbars_finance?ysclid=lak3w66lo111274780,akbarsfinance,10084.0
+broker_i_uk,10,Банк Авангард,https://www.banki.ru/investment/responses/company/broker/avangard/,https://www.sravni.ru/bank/avangard/otzyvy/,https://irecommend.ru/content/avangard,https://otzovik.com/reviews/bank_avangard_russia_moscow/,bankavangard,https://vk.com/bankavangard?ysclid=lak3wf440573819289,avangard,10101.0
+broker_i_uk,11,ИК Русс-Инвест,https://www.banki.ru/investment/responses/company/broker/russ-invest/,,,https://otzovik.com/reviews/ik_russ-invest/,,,russ-invest,10231.0
+broker_i_uk,12,ИК «Риком-Траст»,https://www.banki.ru/investment/responses/company/broker/rikom-trast/,,,,ricom_trust,https://vk.com/ricom_trust?ysclid=lak3wzm7ku45229028,rikom-trast,10041.0
+broker_i_uk,13,Тринфико,https://www.banki.ru/investment/responses/company/broker/trinfico/,,https://irecommend.ru/content/investitsionnaya-kompaniya-trinfiko,https://otzovik.com/reviews/trinfiko/,trinfico,https://vk.com/trinfico?ysclid=lak3xacvik600890374,trinfico,10061.0
+broker_i_uk,14,ПАО Сбербанк,https://www.banki.ru/investment/responses/company/broker/sberbank/,https://www.sravni.ru/bank/sberbank-rossii/otzyvy/,,https://otzovik.com/reviews/pao_sberbank_sankt-peterburg/,sber,https://vk.com/sber?ysclid=lak3y52d7h944548033,sberbank,10240.0
+broker_i_uk,15,Промсвязьбанк,https://www.banki.ru/investment/responses/company/broker/promsvyazbank/,https://www.sravni.ru/bank/promsvjazbank/otzyvy/,https://irecommend.ru/content/promsvyazbank,https://otzovik.com/reviews/promsvyazbank_russia_moscow/,psbank_ru,https://vk.com/psbank_ru?ysclid=lak3yg13u5698173668,promsvyazbank,10235.0
+broker_i_uk,16,ИК Газинвест,https://www.banki.ru/investment/responses/company/broker/ikgazinvest/,,,,gazinvest,https://vk.com/gazinvest?ysclid=lak3ynxdes831672462,ikgazinvest,10036.0
+broker_i_uk,17,Банк Зенит,https://www.banki.ru/investment/responses/company/broker/zenit/,https://www.sravni.ru/bank/bank-zenit/otzyvy/,,https://otzovik.com/reviews/bank_zenit_russia/,bank_zenit,https://vk.com/bank_zenit?ysclid=lak3yy2yi9225725166,zenit,10119.0
+broker_i_uk,18,КИТ Финанс Брокер,https://www.banki.ru/investment/responses/company/broker/kitfinansbroker/,,https://irecommend.ru/content/kompaniya-kit-finans-broker-rossiya-sankt-peterburg,https://otzovik.com/reviews/kompaniya_kit_finans_broker_russia_sankt-peterburg/,brokerkf,https://vk.com/brokerkf?ysclid=lak3z69bas804824235,kitfinansbroker,10126.0
+broker_i_uk,19,Газпромбанк Инвестиции,https://www.banki.ru/investment/responses/company/broker/gazprombankinvestments/,,,,gazprombank_investments,https://vk.com/gazprombank_investments?ysclid=lak3ztch28540007132,gazprombankinvestments,10200.0
+broker_i_uk,20,Уралсиб Брокер,https://www.banki.ru/investment/responses/company/broker/uralcibcapital/,,https://irecommend.ru/content/uralsib-kepital-finansovye-uslugi-ooo-broker,,uralsibbroker,https://vk.com/uralsibbroker?ysclid=lak402l6x9414306050,uralcibcapital,10185.0
+broker_i_uk,21,Тинькофф Инвестиции,https://www.banki.ru/investment/responses/company/broker/tcs/,,https://irecommend.ru/content/tinkoff-investitsii-brokerskii-servis-ot-bks-broker,https://otzovik.com/reviews/servis_tinkoff_investicii/,investments_tinkoff,https://vk.com/investments_tinkoff?ysclid=lak4097b3g857418935,tcs,10062.0
+broker_i_uk,22,МКБ Инвестиции,https://www.banki.ru/investment/responses/company/broker/mkb-broker/,,,,mkb_investments,https://vk.com/mkb_investments?ysclid=lak40g8ixm747039464,mkb-broker,10199.0
+broker_i_uk,23,Совкомбанк,https://www.banki.ru/investment/responses/company/broker/sovcombank/,https://www.sravni.ru/bank/sovkombank/otzyvy/,https://irecommend.ru/content/sovcombank-strakhovanie,https://otzovik.com/reviews/bank_sovkombank_russia/,sovcombank,https://vk.com/sovcombank?ysclid=lak40oej5z558174656,sovcombank,10237.0
+broker_i_uk,24,ITinvest,https://www.banki.ru/investment/responses/company/broker/iticapital/,,,,itinvest_rus,https://vk.com/itinvest_rus?ysclid=lak40xuosr149855315,iticapital,10034.0
+broker_i_uk,25,Атон,https://www.banki.ru/investment/responses/company/broker/aton/,,,https://otzovik.com/reviews/investicionnaya_kompaniya_aton/,,,aton,10141.0
+broker_i_uk,26,Алор Брокер,https://www.banki.ru/investment/responses/company/broker/alorbroker/,,https://irecommend.ru/content/alor-broker-investitsii,https://otzovik.com/reviews/broker_alor/,alorbroker,https://vk.com/alorbroker?ysclid=lak41oo1sm138188693,alorbroker,10140.0
+broker_i_uk,27,Россельхозбанк,https://www.banki.ru/investment/responses/company/broker/rshb/,https://www.sravni.ru/bank/rosselkhozbank/otzyvy/,https://irecommend.ru/content/rosselkhozbank,https://otzovik.com/reviews/bank_rosselhoz_bank_russia_orenburg/,rshbru,https://vk.com/rshbru?ysclid=lak41vtz12947702208,rshb,10056.0
+broker_i_uk,28,Актив,https://www.banki.ru/investment/responses/company/broker/aktiv/,,,,,,aktiv,10077.0
+broker_i_uk,29,СНГБ,https://www.banki.ru/investment/responses/company/broker/sngb/,https://www.sravni.ru/bank/surgutneftegazbank/otzyvy/,,https://otzovik.com/reviews/bank_surgutneftegazbank_russia/,surgutneftegasbank,https://vk.com/surgutneftegasbank?ysclid=lak429ox4t374472701,sngb,10060.0
+broker_i_uk,30,General Invest,https://www.banki.ru/investment/responses/company/broker/generalinvest/,,,,club89706988,https://vk.com/club89706988?ysclid=lak42jvq5y836880664,generalinvest,10221.0
+broker_i_uk,31,Райффайзенбанк,https://www.banki.ru/investment/responses/company/broker/raiffeisen/,https://www.sravni.ru/bank/rajffajzenbank/otzyvy/,https://irecommend.ru/content/raiffaizenbank,https://otzovik.com/reviews/rayffayzenbank/,raiffeisenbankrus,https://vk.com/raiffeisenbankrus?ysclid=lak42ttexz936971782,raiffeisen,10054.0
+broker_i_uk,32,ВТБ Капитал Инвестиции / Банк ВТБ,https://www.banki.ru/investment/responses/company/broker/vtb/,https://www.sravni.ru/bank/vtb/otzyvy/,https://irecommend.ru/content/vtb-investitsii,https://otzovik.com/reviews/bank_vtb_24/,vtb,https://vk.com/vtb?ysclid=lak433uhoe306561790,vtb,10118.0
+broker_i_uk,33,Современные Фонды Недвижимости,https://www.banki.ru/investment/responses/company/trust_company/sberfn/,,,,,,sberfn,
+broker_i_uk,34,Первая,https://www.banki.ru/investment/responses/company/trust_company/sberbank-am/,,,,,,sberbank-am,
+broker_i_uk,35,Вим Инвестиции,https://www.banki.ru/investment/responses/company/trust_company/vtbcapital-am/,,,,,,vtbcapital-am,
+broker_i_uk,36,ВТБ Капитал Пенсионный резерв,https://www.banki.ru/investment/responses/company/trust_company/vtbcapital-pr/,,,,,,vtbcapital-pr,
+broker_i_uk,37,Регион Девелопмент,https://www.banki.ru/investment/responses/company/trust_company/region-rd/,,,,,,region-rd,
+broker_i_uk,38,Регион Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/region-am/,,,,,,region-am,
+broker_i_uk,39,Регион Траст,https://www.banki.ru/investment/responses/company/trust_company/trust-region/,,,,,,trust-region,
+broker_i_uk,40,Ингосстрах-Инвестиции,https://www.banki.ru/investment/responses/company/trust_company/ingosstrah-invest/,,,,ingosinvest,https://vk.com/ingosinvest?ysclid=lak44q0yoj430304850,ingosstrah-invest,
+broker_i_uk,41,ААА Управление Капиталом,https://www.banki.ru/investment/responses/company/trust_company/gpb-am/,,,,ukgpbam,https://vk.com/ukgpbam?ysclid=lak44xjm55627962476,gpb-am,
+broker_i_uk,42,Мой Капитал,https://www.banki.ru/investment/responses/company/trust_company/capital-am/,,,,capitalapp,https://vk.com/capitalapp?ysclid=lak4576u1t333801965,capital-am,
+broker_i_uk,43,Альфа-Капитал,https://www.banki.ru/investment/responses/company/trust_company/alfacapital/,,https://irecommend.ru/content/prilozhenie-alfa-kapital,,alfacapital,https://vk.com/alfacapital?ysclid=lak45izgnq303035035,alfacapital,
+broker_i_uk,44,Открытие,https://www.banki.ru/investment/responses/company/trust_company/open-am/,https://www.sravni.ru/bank/fk-otkrytie/otzyvy/,https://irecommend.ru/content/bank-otkrytie,https://otzovik.com/reviews/bank_otkritie_russia/,otkritiecorp,https://vk.com/otkritiecorp?ysclid=lak45rvlic653420229,open-am,
+broker_i_uk,45,Лидер,https://www.banki.ru/investment/responses/company/trust_company/leader/,,,,,,leader,
+broker_i_uk,46,ТКБ Инвестмент Партнерс,https://www.banki.ru/investment/responses/company/trust_company/tkbip/,,https://irecommend.ru/content/sb-investment-partners,,tkbip,https://vk.com/tkbip?ysclid=lak46qp6or870113570,tkbip,
+broker_i_uk,47,Прогрессивные инвестиционные идеи,https://www.banki.ru/investment/responses/company/trust_company/progressinvest/,,,,,,progressinvest,
+broker_i_uk,48,ТФГ,https://www.banki.ru/investment/responses/company/trust_company/tfg/,,,,,,tfg,
+broker_i_uk,49,Система Капитал,https://www.banki.ru/investment/responses/company/trust_company/sistema-capital/,,,,,,sistema-capital,
+broker_i_uk,50,Райффайзен Капитал,https://www.banki.ru/investment/responses/company/trust_company/raiffeisencapital/,,,,,,raiffeisencapital,
+broker_i_uk,51,РСХБ Управление Активами,https://www.banki.ru/investment/responses/company/trust_company/rshb-am/,,,,rshbam,https://vk.com/rshbam?ysclid=lak48nef9l870983845,rshb-am,
+broker_i_uk,52,Эссет Менеджмент Солюшнс,https://www.banki.ru/investment/responses/company/trust_company/llcams/,,,,,,llcams,
+broker_i_uk,53,FinEx,https://www.banki.ru/investment/responses/company/trust_company/finex-etf/,,,,finexetf,https://vk.com/finexetf?ysclid=lak493xky585522264,finex-etf,
+broker_i_uk,54,А класс капитал,https://www.banki.ru/investment/responses/company/trust_company/aclass/,,,,,,aclass,
+broker_i_uk,55,Агана,https://www.banki.ru/investment/responses/company/trust_company/agana/,,,,,,agana,
+broker_i_uk,56,БКС Управление благосостоянием,https://www.banki.ru/investment/responses/company/trust_company/uralsib-am/,,,https://otzovik.com/reviews/ao_bks_upravlenie_blagosostoyaniem/,,,uralsib-am,
+broker_i_uk,57,БКС,https://www.banki.ru/investment/responses/company/trust_company/bcs/,,https://irecommend.ru/content/bks-brokerskoe-obsluzhivanie,,,,bcs,
+broker_i_uk,58,Свиньин и Партнеры,https://www.banki.ru/investment/responses/company/trust_company/svinin/,,,,,,svinin,
+broker_i_uk,60,УК Велес Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/veles-capitalam/,,,,,,veles-capitalam,
+broker_i_uk,61,Восток-Запад,https://www.banki.ru/investment/responses/company/trust_company/ew-mc/,,,,,,ew-mc,
+broker_i_uk,62,Ак Барс Капитал,https://www.banki.ru/investment/responses/company/trust_company/akbarscapital/,,,,abcapital,https://vk.com/abcapital?ysclid=lak4bc5j3n416042246,akbarscapital,
+broker_i_uk,63,Спутник-Управление Капиталом,https://www.banki.ru/investment/responses/company/trust_company/sputnik-am/,,,,,,sputnik-am,
+broker_i_uk,64,Велес Траст,https://www.banki.ru/investment/responses/company/trust_company/veles-trust/,,,,,,veles-trust,
+broker_i_uk,65,Тинькофф Капитал,https://www.banki.ru/investment/responses/company/trust_company/tinkoffcapital/,,,,,,tinkoffcapital,
+broker_i_uk,66,УК Промсвязь,https://www.banki.ru/investment/responses/company/trust_company/promsvyaz/,,,,,,promsvyaz,
+broker_i_uk,67,RWM Capital,https://www.banki.ru/investment/responses/company/trust_company/rwminvest/,,,,,,rwminvest,
+broker_i_uk,68,Атон-менеджмент,https://www.banki.ru/investment/responses/company/trust_company/aton-m/,,,,,,aton-m,
+broker_i_uk,69,КСП Капитал,https://www.banki.ru/investment/responses/company/trust_company/kspcapital-am/,,,,,,kspcapital-am,
+broker_i_uk,70,РФЦ-Капитал,https://www.banki.ru/investment/responses/company/trust_company/rfc-capital/,,,,,,rfc-capital,
+broker_i_uk,71,Национальная управляющая компания,https://www.banki.ru/investment/responses/company/trust_company/namc/,,,,,,namc,
+broker_i_uk,72,Доходъ,https://www.banki.ru/investment/responses/company/trust_company/uk.dohod/,,,,,,uk.dohod,
+broker_i_uk,73,Центротраст,https://www.banki.ru/investment/responses/company/trust_company/centrotrast/,,,,,,centrotrast,
+broker_i_uk,74,Апрель Капитал,https://www.banki.ru/investment/responses/company/trust_company/april-capital/,,,,,,april-capital,10145.0
+broker_i_uk,75,БСПБ Капитал,https://www.banki.ru/investment/responses/company/trust_company/bspb/,,,,,,bspb,10224.0
+broker_i_uk,76,IQG Asset Management,https://www.banki.ru/investment/responses/company/trust_company/iqg/,,,,,,iqg,
+broker_i_uk,77,Аурум Инвестмент,https://www.banki.ru/investment/responses/company/trust_company/aurum-investment/,,,,,,aurum-investment,
+broker_i_uk,78,Ронин Траст,https://www.banki.ru/investment/responses/company/trust_company/ronin-trast/,,,,,,ronin-trast,
+broker_i_uk,79,НИК Развитие,https://www.banki.ru/investment/responses/company/trust_company/nik/,,,,,,nik,
+broker_i_uk,80,ФБ Август,https://www.banki.ru/investment/responses/company/trust_company/fbaugust/,,,,,,fbaugust,
+broker_i_uk,81,Акцент Управление Активами,https://www.banki.ru/investment/responses/company/trust_company/accent-am/,,,,,,accent-am,
+broker_i_uk,82,Перамо Инвест,https://www.banki.ru/investment/responses/company/trust_company/peramoinvest/,,,,,,peramoinvest,
+broker_i_uk,83,Меркури Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/merkury-m/,,,,,,merkury-m,
+broker_i_uk,84,АктивФинансМенеджмент,https://www.banki.ru/investment/responses/company/trust_company/afmg/,,,,,,afmg,
+broker_i_uk,85,Арсагера,https://www.banki.ru/investment/responses/company/trust_company/arsagera/,,,,,,arsagera,
+broker_i_uk,86,Конкордия-эссет менеджмент,https://www.banki.ru/investment/responses/company/trust_company/konkordiya/,,,,,,konkordiya,
+broker_i_uk,87,Арикапитал,https://www.banki.ru/investment/responses/company/trust_company/arikapital/,,,,,,arikapital,
+broker_i_uk,88,ГеоКапитал,https://www.banki.ru/investment/responses/company/trust_company/geocapital/,,,,,,geocapital,
+broker_i_uk,89,Инвестиционная компания Алго Капитал,https://www.banki.ru/investment/responses/company/trust_company/algocapital/,,,,,,algocapital,10143.0
+broker_i_uk,90,UMGT,https://www.banki.ru/investment/responses/company/trust_company/umgt/,,,,,,umgt,
+broker_i_uk,91,Олма-Финанс,https://www.banki.ru/investment/responses/company/trust_company/olma-finance/,,,,,,olma-finance,
+broker_i_uk,92,Агидель,https://www.banki.ru/investment/responses/company/trust_company/agidel/,,,,,,agidel,
+broker_i_uk,93,Финам Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/finam/,,,,,,finam,10042.0
+broker_i_uk,94,Парма-Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/parma-managemant/,,,,,,parma-managemant,
+broker_i_uk,95,Молния,https://www.banki.ru/investment/responses/company/trust_company/thunderbolt-am/,,,,,,thunderbolt-am,
+broker_i_uk,96,Брест Капитал,https://www.banki.ru/investment/responses/company/trust_company/brestcapital/,,,,,,brestcapital,
+broker_i_uk,97,М-Капитал,https://www.banki.ru/investment/responses/company/trust_company/mcapital/,,,,,,mcapital,
+broker_i_uk,98,Плаза Девелопмент,https://www.banki.ru/investment/responses/company/trust_company/plazadevelopment/,,,,,,plazadevelopment,
+broker_i_uk,99,РусКапитал,https://www.banki.ru/investment/responses/company/trust_company/ruskap/,,,,,,ruskap,
+broker_i_uk,100,Лекс АМ,https://www.banki.ru/investment/responses/company/trust_company/lexpif/,,,,,,lexpif,
+broker_i_uk,101,Частные Активы,https://www.banki.ru/investment/responses/company/trust_company/mcenter/,,,,,,mcenter,
+broker_i_uk,102,Юнион Инвест Групп,https://www.banki.ru/investment/responses/company/trust_company/unvest/,,,,,,unvest,
+broker_i_uk,103,Диана,https://www.banki.ru/investment/responses/company/trust_company/uk-diana/,,,,,,uk-diana,
+broker_i_uk,104,АТ-Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/at-management/,,,,,,at-management,
+broker_i_uk,105,Маттерхорн-Финанс,https://www.banki.ru/investment/responses/company/trust_company/mthf/,,,,,,mthf,
+broker_i_uk,106,Альва-Финанс,https://www.banki.ru/investment/responses/company/trust_company/alvafinance/,,,,,,alvafinance,
+broker_i_uk,107,Развитие,https://www.banki.ru/investment/responses/company/trust_company/development-am/,,,,,,development-am,
+broker_i_uk,108,Си-Эф-Си Прямые Инвестиции,https://www.banki.ru/investment/responses/company/trust_company/cfcpi/,,,,,,cfcpi,
+broker_i_uk,109,Тринфико Пропети Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/trinfico-pm/,,,,,,trinfico-pm,
+broker_i_uk,110,Пенсионные накопления,https://www.banki.ru/investment/responses/company/trust_company/pension-am/,,,,,,pension-am,
+broker_i_uk,111,Сигнет Капитал,https://www.banki.ru/investment/responses/company/trust_company/signet.capital/,,,,,,signet.capital,
+broker_i_uk,112,Династия,https://www.banki.ru/investment/responses/company/trust_company/uk-dynasty/,,,,,,uk-dynasty,
+broker_i_uk,113,Маяк Эстейт - Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/beaconfunds/,,,,,,beaconfunds,
+broker_i_uk,114,Ньюлайн Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/uk-newline/,,,,,,uk-newline,
+broker_i_uk,115,Мегаполис Капитал,https://www.banki.ru/investment/responses/company/trust_company/ukmcapital/,,,,,,ukmcapital,
+broker_i_uk,116,Вектор Капитал,https://www.banki.ru/investment/responses/company/trust_company/vector-capital/,,,,,,vector-capital,
+broker_i_uk,117,РБ Капитал,https://www.banki.ru/investment/responses/company/trust_company/rosbank-capital/,,,,,,rosbank-capital,
+broker_i_uk,118,Мегаполис-Инвест,https://www.banki.ru/investment/responses/company/trust_company/megainv/,,,,,,megainv,
+broker_i_uk,119,Энергия-Инвест,https://www.banki.ru/investment/responses/company/trust_company/energy-invest/,,,,,,energy-invest,
+broker_i_uk,120,Эрроу Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/arrow-am/,,,,,,arrow-am,
+broker_i_uk,121,Доверие,https://www.banki.ru/investment/responses/company/trust_company/confidence-am/,,,,,,confidence-am,
+broker_i_uk,122,Доминвест,https://www.banki.ru/investment/responses/company/trust_company/dominvest/,,,,,,dominvest,
+broker_i_uk,123,Новые инвестиционные технологии,https://www.banki.ru/investment/responses/company/trust_company/uk-nit/,,,,,,uk-nit,
+broker_i_uk,124,Реал Эстейт Кэпитал,https://www.banki.ru/investment/responses/company/trust_company/mcrec/,,,,,,mcrec,
+broker_i_uk,125,Сургутгазстрой,https://www.banki.ru/investment/responses/company/trust_company/uk-sgs/,,,,,,uk-sgs,
+broker_i_uk,126,General Capital,https://www.banki.ru/investment/responses/company/trust_company/gencap/,,,https://otzovik.com/reviews/brokerskaya_kompaniya_grand_capital_russia_moscow/,,,gencap,
+broker_i_uk,127,Долгосрочные инвестиции,https://www.banki.ru/investment/responses/company/trust_company/lt-invest/,,,,,,lt-invest,
+broker_i_uk,128,Менеджмент-консалтинг,https://www.banki.ru/investment/responses/company/trust_company/mconsulting/,,,,,,mconsulting,
+broker_i_uk,129,GPI,https://www.banki.ru/investment/responses/company/trust_company/ocgpi/,,,,,,ocgpi,
+broker_i_uk,130,ВербаКапитал,https://www.banki.ru/investment/responses/company/trust_company/verbacapital/,,,,,,verbacapital,
+broker_i_uk,131,Тэн-Девелопмент,https://www.banki.ru/investment/responses/company/trust_company/ten-development/,,,,,,ten-development,
+broker_i_uk,132,Виктори Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/victory-am/,,,,,,victory-am,
+broker_i_uk,133,ФИН-Партнер,https://www.banki.ru/investment/responses/company/trust_company/fin-partner/,,,,,,fin-partner,
+broker_i_uk,134,ДонТК,https://www.banki.ru/investment/responses/company/trust_company/dontk/,,,,,,dontk,
+broker_i_uk,135,Аверс-Капитал,https://www.banki.ru/investment/responses/company/trust_company/avers-capital/,,,,,,avers-capital,
+broker_i_uk,136,НРК-Капитал,https://www.banki.ru/investment/responses/company/trust_company/nrc-capital/,,,,,,nrc-capital,
+broker_i_uk,137,GICM,https://www.banki.ru/investment/responses/company/trust_company/gicmuk/,,,,,,gicmuk,
+broker_i_uk,138,Фортис-Инвест,https://www.banki.ru/investment/responses/company/trust_company/fortisinvest/,,,,,,fortisinvest,
+broker_i_uk,139,Инвестиции в будущее,https://www.banki.ru/investment/responses/company/trust_company/%D0%B8%D0%B2%D0%B155/,,,,,,%D0%B8%D0%B2%D0%B155,
+broker_i_uk,140,ТДУ,https://www.banki.ru/investment/responses/company/trust_company/uktdu/,,,,,,uktdu,
+broker_i_uk,141,Меркури Кэпитал Траст,https://www.banki.ru/investment/responses/company/trust_company/mctrust/,,,,,,mctrust,
+broker_i_uk,142,РТ-Инвест,https://www.banki.ru/investment/responses/company/trust_company/rt-invest/,,,,,,rt-invest,
+broker_i_uk,143,ФМ Активы,https://www.banki.ru/investment/responses/company/trust_company/fmassets/,,,,,,fmassets,
+broker_i_uk,144,Евро Фин Траст,https://www.banki.ru/investment/responses/company/trust_company/euro-fin-trust/,,,,,,euro-fin-trust,
+broker_i_uk,145,Объединенная управляющая компания,https://www.banki.ru/investment/responses/company/trust_company/uamc/,,,,,,uamc,
+broker_i_uk,146,Владинвестгрупп,https://www.banki.ru/investment/responses/company/trust_company/ukvig/,,,,,,ukvig,
+broker_i_uk,147,Управляющая компания РФПИ,https://www.banki.ru/investment/responses/company/trust_company/rdif/,,,,,,rdif,
+broker_i_uk,148,Управляющая компания РВК,https://www.banki.ru/investment/responses/company/trust_company/rvc/,,,,,,rvc,
+broker_i_uk,149,Солид Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/solid-mn/,,,,solidmn,https://vk.com/solidmn?ysclid=lak4df9bge927487066,solid-mn,
+broker_i_uk,150,ИК «Фридом Финанс»,https://www.banki.ru/investment/responses/company/trust_company/freedomfinance/,,,https://otzovik.com/reviews/kompaniya_freedom_finance_russia_moscow/,freedom_finance,https://fast.vk.com/freedom_finance,freedomfinance,10217.0
+broker_i_uk,151,Аллтек,https://www.banki.ru/investment/responses/company/trust_company/aifm/,,,,,,aifm,
+broker_i_uk,152,Герфин,https://www.banki.ru/investment/responses/company/trust_company/gerfin/,,,,,,gerfin,
+broker_i_uk,153,Регион Финанс,https://www.banki.ru/investment/responses/company/trust_company/am-rf/,,,,,,am-rf,
+broker_i_uk,154,Фондовый ДОМ,https://www.banki.ru/investment/responses/company/trust_company/fonddom.spb/,,,,,,fonddom.spb,
+broker_i_uk,155,Инновационный капитал,https://www.banki.ru/investment/responses/company/trust_company/nicor-cp/,,,,,,nicor-cp,
+broker_i_uk,156,ОИР,https://www.banki.ru/investment/responses/company/trust_company/uk-oir/,,,,,,uk-oir,
+broker_i_uk,157,Металлинвесттраст,https://www.banki.ru/investment/responses/company/trust_company/mittrust/,,,,,,mittrust,
+broker_i_uk,158,Терра Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/terra-am/,,,,,,terra-am,
+broker_i_uk,159,Олимп Капитал,https://www.banki.ru/investment/responses/company/trust_company/olimp-capital/,,,,,,olimp-capital,
+broker_i_uk,160,Метрополь,https://www.banki.ru/investment/responses/company/trust_company/am-metropol/,,,,,,am-metropol,
+broker_i_uk,161,Центр инвестиций,https://www.banki.ru/investment/responses/company/trust_company/centrinv/,,,,,,centrinv,
+broker_i_uk,162,Финсовет,https://www.banki.ru/investment/responses/company/trust_company/%D1%84%D0%B8%D0%BD%D1%81%D0%BE%D0%B2%D0%B5%D1%82/,,,,,,%D1%84%D0%B8%D0%BD%D1%81%D0%BE%D0%B2%D0%B5%D1%82,
+broker_i_uk,163,ДОМ.РФ Управление активами,https://www.banki.ru/investment/responses/company/trust_company/domrf-am/,,,,,,domrf-am,
+broker_i_uk,164,Русский Инвестиционный Клуб,https://www.banki.ru/investment/responses/company/trust_company/ric-am/,,,,,,ric-am,
+broker_i_uk,165,Инвест Менеджмент Центр,https://www.banki.ru/investment/responses/company/trust_company/invmc/,,,,,,invmc,
+broker_i_uk,166,Риком-Траст,https://www.banki.ru/investment/responses/company/trust_company/fondmarket/,,,,,,fondmarket,
+broker_i_uk,167,Ореол,https://www.banki.ru/investment/responses/company/trust_company/oreol-2010/,,,,,,oreol-2010,
+broker_i_uk,168,Управляющая Компания ИТС-Групп,https://www.banki.ru/investment/responses/company/trust_company/uk-itsgroup/,,,,,,uk-itsgroup,
+broker_i_uk,169,Мир финансов,https://www.banki.ru/investment/responses/company/trust_company/finansovmir/,,,,,,finansovmir,
+broker_i_uk,170,Ричвуд Капитал,https://www.banki.ru/investment/responses/company/trust_company/r-capital/,,,,,,r-capital,
+broker_i_uk,171,Интерпромлизинг,https://www.banki.ru/investment/responses/company/trust_company/interpromleasing/,,,,,,interpromleasing,
+broker_i_uk,172,Интерстрой,https://www.banki.ru/investment/responses/company/trust_company/uk-interstroi/,,,,,,uk-interstroi,
+broker_i_uk,173,Центральная Управляющая Компания,https://www.banki.ru/investment/responses/company/trust_company/spbcmc/,,,https://otzovik.com/reviews/upravlyayuschaya_kompaniya_centralnaya_russia_tula/,,,spbcmc,
+broker_i_uk,174,Парангон,https://www.banki.ru/investment/responses/company/trust_company/parangon/,,,,,,parangon,
+broker_i_uk,175,Михайловский,https://www.banki.ru/investment/responses/company/trust_company/ukmik/,,,,,,ukmik,
+broker_i_uk,176,Столичная,https://www.banki.ru/investment/responses/company/trust_company/stolichnaya-am/,,,,,,stolichnaya-am,
+broker_i_uk,177,Инвест-Урал,https://www.banki.ru/investment/responses/company/trust_company/invest-ural/,,,,,,invest-ural,
+broker_i_uk,178,Русь Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/rus-management/,,,,,,rus-management,
+broker_i_uk,179,Профит,https://www.banki.ru/investment/responses/company/trust_company/ukif-profit/,,,https://otzovik.com/reviews/ooo_profit_sankt-peterburg/,,,ukif-profit,
+broker_i_uk,180,КРСК – Управление активами,https://www.banki.ru/investment/responses/company/trust_company/krskam/,,,,,,krskam,
+broker_i_uk,181,Центр Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/centr-management/,,,,,,centr-management,
+broker_i_uk,182,Содружество,https://www.banki.ru/investment/responses/company/trust_company/uk-s/,,,https://otzovik.com/reviews/upravlyayuschaya_kompaniya_sodruzhestvo_russia_sankt-peterburg/,,,uk-s,
+broker_i_uk,184,Тетис Кэпитал,https://www.banki.ru/investment/responses/company/trust_company/tetis-capital/,,,,,,tetis-capital,
+broker_i_uk,185,Эвокорп,https://www.banki.ru/investment/responses/company/trust_company/evocorp/,,,,,,evocorp,
+broker_i_uk,186,Регионгазфинанс,https://www.banki.ru/investment/responses/company/trust_company/uk-rgf/,,,,,,uk-rgf,
+broker_i_uk,187,Контрада Капитал,https://www.banki.ru/investment/responses/company/trust_company/kapital-pif/,,,,,,kapital-pif,
+broker_i_uk,188,Русское инвестиционное общество,https://www.banki.ru/investment/responses/company/trust_company/riocapital/,,,,,,riocapital,
+broker_i_uk,189,Парус Управление Активами,https://www.banki.ru/investment/responses/company/trust_company/parus-am/,,,,,,parus-am,
+broker_i_uk,190,Восхождение,https://www.banki.ru/investment/responses/company/trust_company/uk-voshozhdenie/,,,,,,uk-voshozhdenie,
+broker_i_uk,191,БФА,https://www.banki.ru/investment/responses/company/trust_company/ambfa/,,,,,,ambfa,
+broker_i_uk,192,ВТБ Альтернативные инвестиции,https://www.banki.ru/investment/responses/company/trust_company/vtbcapital-i2bf/,,,,,,vtbcapital-i2bf,
+broker_i_uk,193,Модернизация Инновации Развитие,https://www.banki.ru/investment/responses/company/trust_company/fundmir/,,,,,,fundmir,
+broker_i_uk,194,Совкомбанк Управление Активами,https://www.banki.ru/investment/responses/company/trust_company/sovcombank-am/,,,,,,sovcombank-am,
+broker_i_uk,195,Афин,https://www.banki.ru/investment/responses/company/trust_company/ukafin/,,,,,,ukafin,
+broker_i_uk,196,Универсальные инвестиции,https://www.banki.ru/investment/responses/company/trust_company/mc-uinvest/,,,,,,mc-uinvest,
+broker_i_uk,197,ПИФагор,https://www.banki.ru/investment/responses/company/trust_company/am-pifagor/,,,,,,am-pifagor,
+broker_i_uk,198,Монетный Двор Траст,https://www.banki.ru/investment/responses/company/trust_company/mdtrust/,,,,,,mdtrust,
+broker_i_uk,199,Эдельвейс,https://www.banki.ru/investment/responses/company/trust_company/edelweiess/,,,,,,edelweiess,
+broker_i_uk,200,Индустриальная недвижимость,https://www.banki.ru/investment/responses/company/trust_company/%D0%B8%D0%BD%D0%B4%D1%83%D1%81%D1%82%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C/,,,,,,%D0%B8%D0%BD%D0%B4%D1%83%D1%81%D1%82%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C,
+broker_i_uk,201,ТМ-Траст,https://www.banki.ru/investment/responses/company/trust_company/tm-trust/,,,,,,tm-trust,
+broker_i_uk,202,Регионфинансресурс,https://www.banki.ru/investment/responses/company/trust_company/yk-rfr/,,,,,,yk-rfr,
+broker_i_uk,203,Абсолют Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/absolutman/,,,,,,absolutman,
+broker_i_uk,204,Интеллект Капитал,https://www.banki.ru/investment/responses/company/trust_company/intcapital/,,,,,,intcapital,
+broker_i_uk,205,Спутник,https://www.banki.ru/investment/responses/company/trust_company/mcsputnik/,,,,,,mcsputnik,
+broker_i_uk,206,Инвестстрой,https://www.banki.ru/investment/responses/company/trust_company/investural/,,,,,,investural,
+broker_i_uk,207,Инфраструктурные инвестиции,https://www.banki.ru/investment/responses/company/trust_company/infra-invest/,,,,,,infra-invest,
+broker_i_uk,208,К2 Груп,https://www.banki.ru/investment/responses/company/trust_company/uk-k2/,,,,,,uk-k2,
+broker_i_uk,209,Транснефть Инвест,https://www.banki.ru/investment/responses/company/trust_company/tn-invest/,,,,,,tn-invest,
+broker_i_uk,210,Мономах,https://www.banki.ru/investment/responses/company/trust_company/monomah/,,,,,,monomah,
+broker_i_uk,211,Прагма Капитал,https://www.banki.ru/investment/responses/company/trust_company/pragmacapital/,,,,,,pragmacapital,
+broker_i_uk,212,Капитал Инвест,https://www.banki.ru/investment/responses/company/trust_company/24ki/,,,,,,24ki,
+broker_i_uk,213,Капитал-Траст-Инвест,https://www.banki.ru/investment/responses/company/trust_company/uk-capitalinvest/,,,,,,uk-capitalinvest,
+broker_i_uk,214,Кастом Кэпитал,https://www.banki.ru/investment/responses/company/trust_company/custom-capital/,,,,,,custom-capital,
+broker_i_uk,215,УК ПФС,https://www.banki.ru/investment/responses/company/trust_company/mcpfs/,,,,,,mcpfs,
+broker_i_uk,216,Эй Эс Джи Инвест,https://www.banki.ru/investment/responses/company/trust_company/uk-asginvest/,,,,,,uk-asginvest,
+broker_i_uk,217,УК СГБ,https://www.banki.ru/investment/responses/company/trust_company/uksgb/,,,,,,uksgb,
+broker_i_uk,218,Смартс-Инвест,https://www.banki.ru/investment/responses/company/trust_company/smarts-invest/,,,,,,smarts-invest,
+broker_i_uk,219,ВЭБ.РФ Управление активами,https://www.banki.ru/investment/responses/company/trust_company/vebrf-am/,,,,,,vebrf-am,
+broker_i_uk,220,Коммершиал проперти траст,https://www.banki.ru/investment/responses/company/trust_company/cptrust/,,,,,,cptrust,
+broker_i_uk,221,Проект,https://www.banki.ru/investment/responses/company/trust_company/uk-proekt/,,,,,,uk-proekt,
+broker_i_uk,222,Корона,https://www.banki.ru/investment/responses/company/trust_company/crownam/,,,,,,crownam,
+broker_i_uk,223,Московия,https://www.banki.ru/investment/responses/company/trust_company/uk-moskovia/,,,,,,uk-moskovia,
+broker_i_uk,224,Профессиональные Инвестиционные Решения,https://www.banki.ru/investment/responses/company/trust_company/ukpir/,,,,,,ukpir,
+broker_i_uk,225,Резерв Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/reserv-am/,,,,,,reserv-am,
+broker_i_uk,226,Навигатор,https://www.banki.ru/investment/responses/company/trust_company/am-navigator/,,,,,,am-navigator,
+broker_i_uk,227,Красные Ворота,https://www.banki.ru/investment/responses/company/trust_company/krvorota/,,,,,,krvorota,
+broker_i_uk,228,Прогресс-Финанс,https://www.banki.ru/investment/responses/company/trust_company/progress-finance/,,,,,,progress-finance,
+broker_i_uk,229,УК Капитал-Инвест,https://www.banki.ru/investment/responses/company/trust_company/capital-invest/,,,,,,capital-invest,
+broker_i_uk,230,СтоунХедж,https://www.banki.ru/investment/responses/company/trust_company/uk-sth/,,,,,,uk-sth,
+broker_i_uk,231,Гамма Групп,https://www.banki.ru/investment/responses/company/trust_company/am-gamma/,,,,,,am-gamma,
+broker_i_uk,232,Красный мост,https://www.banki.ru/investment/responses/company/trust_company/redbridge-am/,,,,,,redbridge-am,
+broker_i_uk,233,КЛ-Инвест,https://www.banki.ru/investment/responses/company/trust_company/kl-invest/,,,,,,kl-invest,
+broker_i_uk,234,Адепта,https://www.banki.ru/investment/responses/company/trust_company/adepta-am/,,,,,,adepta-am,
+broker_i_uk,235,САН,https://www.banki.ru/investment/responses/company/trust_company/uksun/,,,,,,uksun,
+broker_i_uk,236,Северная Эгида,https://www.banki.ru/investment/responses/company/trust_company/segd/,,,,,,segd,
+broker_i_uk,237,Смарт,https://www.banki.ru/investment/responses/company/trust_company/smartpif/,,,,,,smartpif,
+broker_i_uk,238,Кремль,https://www.banki.ru/investment/responses/company/trust_company/kremlin-am/,,,,,,kremlin-am,
+broker_i_uk,239,Максимум,https://www.banki.ru/investment/responses/company/trust_company/maximum-am/,,,,,,maximum-am,
+broker_i_uk,240,МР Капитал,https://www.banki.ru/investment/responses/company/trust_company/mrcapital/,,,,,,mrcapital,
+broker_i_uk,241,Гарант ФинКом,https://www.banki.ru/investment/responses/company/trust_company/garantfinkom/,,,,,,garantfinkom,
+broker_i_uk,242,Надежное Управление,https://www.banki.ru/investment/responses/company/trust_company/ucnu/,,,,,,ucnu,
+broker_i_uk,243,Эстейт Инвест,https://www.banki.ru/investment/responses/company/trust_company/esteit-invest/,,,,,,esteit-invest,
+broker_i_uk,244,Актив Инвест,https://www.banki.ru/investment/responses/company/trust_company/am-ai/,,,,,,am-ai,
+broker_i_uk,245,Трастовый фонд,https://www.banki.ru/investment/responses/company/trust_company/uktfl/,,,,,,uktfl,
+broker_i_uk,246,Балтинвест УК,https://www.banki.ru/investment/responses/company/trust_company/pifbaltinvest/,,,,,,pifbaltinvest,
+broker_i_uk,247,Байкал,https://www.banki.ru/investment/responses/company/trust_company/ukbaykal/,,,,,,ukbaykal,
+broker_i_uk,248,Простор Инвест,https://www.banki.ru/investment/responses/company/trust_company/prostorinvest/,,,,,,prostorinvest,
+broker_i_uk,249,С-Групп Капитал Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/uk-sgcm/,,,,,,uk-sgcm,
+broker_i_uk,250,Портфельные инвестиции,https://www.banki.ru/investment/responses/company/trust_company/ukpi/,,,,,,ukpi,
+broker_i_uk,251,Апекс Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/apexmanagement/,,,,,,apexmanagement,
+broker_i_uk,252,Бизнес и Инвестиции,https://www.banki.ru/investment/responses/company/trust_company/ukbi/,,,,,,ukbi,
+broker_i_uk,253,Апрель Инвестиции,https://www.banki.ru/investment/responses/company/trust_company/april-investments/,,,,,,april-investments,
+broker_i_uk,254,Гера,https://www.banki.ru/investment/responses/company/trust_company/gera-llc/,,,,,,gera-llc,
+broker_i_uk,255,Легион,https://www.banki.ru/investment/responses/company/trust_company/legion-am/,,,,,,legion-am,
+broker_i_uk,256,Ингрия,https://www.banki.ru/investment/responses/company/trust_company/ingriafunds/,,,,,,ingriafunds,
+broker_i_uk,257,ФинЭксперт Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/finexpert/,,,,,,finexpert,
+broker_i_uk,258,Актив Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/active-m/,,,,,,active-m,
+broker_i_uk,259,Аврора Капитал Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/auroracm/,,,,,,auroracm,
+broker_i_uk,260,ТрастЮнион Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/trustunionam/,,,,,,trustunionam,
+broker_i_uk,261,УК Ригора,https://www.banki.ru/investment/responses/company/trust_company/uk-rigora/,,,,,,uk-rigora,
+broker_i_uk,262,ЭСЭ Управление активами,https://www.banki.ru/investment/responses/company/trust_company/am-ese/,,,,,,am-ese,
+broker_i_uk,263,Бизнеспрофтрейдинг,https://www.banki.ru/investment/responses/company/trust_company/bpt-am/,,,,,,bpt-am,
+broker_i_uk,264,Центр Капитал,https://www.banki.ru/investment/responses/company/trust_company/capital-center2013/,,,,,,capital-center2013,
+broker_i_uk,265,Профессиональные Инвестиции,https://www.banki.ru/investment/responses/company/trust_company/ukprofinvest/,,,,,,ukprofinvest,
+broker_i_uk,266,Стратегия инвестиций,https://www.banki.ru/investment/responses/company/trust_company/strinvest/,,,,,,strinvest,
+broker_i_uk,267,Либра Капитал,https://www.banki.ru/investment/responses/company/trust_company/libra-am/,,,,,,libra-am,
+broker_i_uk,268,ГФТ Паевые Инвестиционные Фонды,https://www.banki.ru/investment/responses/company/trust_company/gft-funds/,,,,,,gft-funds,
+broker_i_uk,269,Северо-западная управляющая компания,https://www.banki.ru/investment/responses/company/trust_company/szuk/,,,,,,szuk,
+broker_i_uk,270,Активист,https://www.banki.ru/investment/responses/company/trust_company/aktiv-st/,,,,,,aktiv-st,
+broker_i_uk,271,Столица Нижний,https://www.banki.ru/investment/responses/company/trust_company/uk-stnn/,,,,,,uk-stnn,
+broker_i_uk,272,НЕВО-Инвест,https://www.banki.ru/investment/responses/company/trust_company/nevo-invest/,,,,,,nevo-invest,
+broker_i_uk,273,Дагаз,https://www.banki.ru/investment/responses/company/trust_company/dagaz/,,,,,,dagaz,
+broker_i_uk,274,Биопроцесс Кэпитал Партнерс,https://www.banki.ru/investment/responses/company/trust_company/bcvf/,,,,,,bcvf,
+broker_i_uk,275,Арис,https://www.banki.ru/investment/responses/company/trust_company/uk-aris/,,,,,,uk-aris,
+broker_i_uk,276,Профинвест,https://www.banki.ru/investment/responses/company/trust_company/profinwest/,,,,,,profinwest,
+broker_i_uk,277,Локо-Инвест Управление активами,https://www.banki.ru/investment/responses/company/trust_company/lockoinvest/,,,,,,lockoinvest,
+broker_i_uk,278,Деловой Дом Калита,https://www.banki.ru/investment/responses/company/trust_company/ukkalita/,,,,,,ukkalita,
+broker_i_uk,279,ЛэндПрофит,https://www.banki.ru/investment/responses/company/trust_company/sistema-re/,,,,,,sistema-re,
+broker_i_uk,280,ДжиЭс Капитал,https://www.banki.ru/investment/responses/company/trust_company/gs-capital/,,,,,,gs-capital,
+broker_i_uk,281,Невский Кэпитал Партнерс,https://www.banki.ru/investment/responses/company/trust_company/nevskycp/,,,,,,nevskycp,
+broker_i_uk,282,Управляющая компания,https://www.banki.ru/investment/responses/company/trust_company/azkapital/,,,,,,azkapital,
+broker_i_uk,283,ФКБС,https://www.banki.ru/investment/responses/company/trust_company/amfbc/,,,,,,amfbc,
+broker_i_uk,284,Профит гарант,https://www.banki.ru/investment/responses/company/trust_company/profit-garant/,,,,,,profit-garant,
+broker_i_uk,285,ПрофЭксперт,https://www.banki.ru/investment/responses/company/trust_company/profexpert-am/,,,,,,profexpert-am,
+broker_i_uk,286,ЭнергоИнвестКапитал,https://www.banki.ru/investment/responses/company/trust_company/energoinvestcapital/,,,,,,energoinvestcapital,
+broker_i_uk,287,Цитадель Эссетс Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/citadel-am/,,,,,,citadel-am,
+broker_i_uk,288,Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/assetmng/,,,,,,assetmng,
+broker_i_uk,289,Унисон Капитал,https://www.banki.ru/investment/responses/company/trust_company/unisoncapital/,,,,,,unisoncapital,
+broker_i_uk,290,Центр Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/centre-am/,,,,,,centre-am,
+broker_i_uk,291,Финкапитал,https://www.banki.ru/investment/responses/company/trust_company/fincapitalam/,,,,,,fincapitalam,
+broker_i_uk,292,ЭМРИС,https://www.banki.ru/investment/responses/company/trust_company/uk-emrys/,,,,,,uk-emrys,
+broker_i_uk,293,Финансовая основа,https://www.banki.ru/investment/responses/company/trust_company/fin-osnova/,,,,,,fin-osnova,
+broker_i_uk,294,Реальные инвестиции,https://www.banki.ru/investment/responses/company/trust_company/mcri/,,,,,,mcri,
+broker_i_uk,295,Интеро Инвест,https://www.banki.ru/investment/responses/company/trust_company/intero-invest/,,,,,,intero-invest,
+broker_i_uk,296,Финанс Трейд Эссет Менеджмент,https://www.banki.ru/investment/responses/company/trust_company/fitam/,,,,,,fitam,
+microfin,1,Быстроденьги,/microloans/responses/companies/bistrodengi/,https://www.sravni.ru/zaimy/mfo/bystrodengi/otzyvy/,https://irecommend.ru/content/esli-znaesh-chto-tochno-zaplatish,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_bistrodengi_russia/,bistrodengi,https://vk.com/bistrodengi?ysclid=lak4f9igpz217250464,bistrodengi,10471.0
+microfin,2,Займер,/microloans/responses/companies/zaymer/,https://www.sravni.ru/zaimy/mfo/zajmer/otzyvy/,https://irecommend.ru/content/ooo-mfk-zaimer,https://otzovik.com/reviews/kreditnaya_organizaciya_zaymer_russia_perm/,robot_zaymer,https://vk.com/robot_zaymer?ysclid=lak4fguany233528172,zaymer,10724.0
+microfin,3,Деньги Сразу,/microloans/responses/companies/dengi_srazu/,https://www.sravni.ru/zaimy/mfo/dengi-srazu/otzyvy/,https://irecommend.ru/content/finansovaya-kompaniya-dengi-srazu,https://otzovik.com/reviews/mikrozaymi_dengi_srazu/,gkdengisrazy,https://vk.com/gkdengisrazy?ysclid=lak4fp2fj7713645705,dengi_srazu,11016.0
+microfin,4,Надо денег,/microloans/responses/companies/kvatro/,https://www.sravni.ru/zaimy/mfo/nado-deneg/otzyvy/,,https://otzovik.com/reviews/mfo_nado_deneg_russia_nizhniy_novgorod/,,,kvatro,11294.0
+microfin,5,Credit7,/microloans/responses/companies/creditstar/,https://www.sravni.ru/zaimy/mfo/credit7/otzyvy/?tag=microcredits,,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_credit7/,credit7_official,https://vk.com/credit7_official?ysclid=lak4g6hoyb679450635,creditstar,11343.0
+microfin,6,Мокка,/microloans/responses/companies/revotekhnologii/,,,https://otzovik.com/reviews/kreditnaya_organizaciya_mokka_russia_moscow/,mokka_ru,https://vk.com/mokka_ru?ysclid=lak4gfvbid790798930,revotekhnologii,
+microfin,7,Webbankir,/microloans/responses/companies/webbankir/,https://www.sravni.ru/zaimy/mfo/webbankir/otzyvy/,https://irecommend.ru/content/webbankir-6,https://otzovik.com/reviews/mikrozaym_v_webbankir/,webbankir,https://vk.com/webbankir?ysclid=lak4gpxvus223847637,webbankir,10649.0
+microfin,8,До Зарплаты,/microloans/responses/companies/do_zarplati/,https://www.sravni.ru/zaimy/mfo/do-zarplaty/otzyvy/,https://irecommend.ru/content/sait-mikrofinansovaya-organizatsiya-do-zarplaty,https://otzovik.com/reviews/do_zarplati_mfo_moscow-sankt-peterburg/,dozarplaticom,https://vk.com/dozarplaticom?ysclid=lak4gwx554714365429,do_zarplati,10908.0
+microfin,9,еКапуста,/microloans/responses/companies/ekapusta/,https://www.sravni.ru/zaimy/mfo/ekapusta/otzyvy/,https://irecommend.ru/content/ekapusta,https://otzovik.com/reviews/ekapusta_ru-zaymi_onlayn/,ekapustaru,https://vk.com/ekapustaru?ysclid=lak4h52lfd984235911,ekapusta,10597.0
+microfin,10,CreditPlus,/microloans/responses/companies/creditplus/,https://www.sravni.ru/zaimy/mfo/kreditpljus/otzyvy/?tag=microcredits,https://irecommend.ru/content/sait-creditplusru,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_kredit_plyus_russia_moscow/,creditplusru,https://vk.com/creditplusru?ysclid=lak4heqf6a216038542,creditplus,10868.0
+microfin,11,MoneyMan,/microloans/responses/companies/moneyman/,https://www.sravni.ru/zaimy/mfo/moneyman/otzyvy/,https://irecommend.ru/content/mfo-moneyman,https://otzovik.com/reviews/zaym_onlayn_moneyman/,moneymanru,https://vk.com/moneymanru?ysclid=lak4hll1h1276414935,moneyman,10534.0
+microfin,12,Умные Наличные,/microloans/responses/companies/umnye_nalichnye/,https://www.sravni.ru/zaimy/mfo/un-finans/otzyvy/,,,smartcashonline,https://vk.com/smartcashonline?ysclid=lak4hrioyq133851558,umnye_nalichnye,11038.0
+microfin,13,Max.Credit,/microloans/responses/companies/maxcredit/,,,,max_credit,https://vk.com/max_credit?ysclid=lak4hyzh3542344076,maxcredit,10898.0
+microfin,14,JoyMoney,/microloans/responses/companies/joymoney/,https://www.sravni.ru/zaimy/mfo/joymoney/otzyvy/,,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_joymoney_russia_moscow/,joymoneyofficial,https://vk.com/joymoneyofficial?ysclid=lak4i5nndq768037651,joymoney,10802.0
+microfin,15,Pliskov,/microloans/responses/companies/pliskov/,https://www.sravni.ru/zaimy/mfo/pliskov/otzyvy/?tag=microcredits,,https://otzovik.com/reviews/pliskov_ru-onlayn-zaymi/,pliskovru,https://vk.com/pliskovru?ysclid=lak4id2o72819334483,pliskov,11192.0
+microfin,16,Веб-займ,/microloans/responses/companies/webzaim/,https://www.sravni.ru/zaimy/mfo/veb-zajm/otzyvy/,,https://otzovik.com/reviews/mikrokreditnaya_kompaniya_veb-zaym_russia_novosibirsk/,webzaimru,https://vk.com/webzaimru?ysclid=lak4in667l789862977,webzaim,11279.0
+microfin,17,Срочноденьги,/microloans/responses/companies/srochno_dengi/,https://www.sravni.ru/zaimy/mfo/srochnodengi/otzyvy/?tag=microcredits,,https://otzovik.com/reviews/mikrozaym_srochnodengi/,srochnodengi,https://vk.com/srochnodengi?ysclid=lak4iw44d8153748358,srochno_dengi,10517.0
+microfin,18,Лайм–Займ,/microloans/responses/companies/lime_zaim/,https://www.sravni.ru/zaimy/mfo/lajm-zajm/otzyvy/?tag=microcredits,https://irecommend.ru/content/laim-zaim-16,https://otzovik.com/reviews/mfo_laymzaym_russia_moscow/,limezaim,https://vk.com/limezaim?ysclid=lak4j62c8n937747787,lime_zaim,10725.0
+microfin,19,Kviku,/microloans/responses/companies/air_loanse/,https://www.sravni.ru/zaimy/mfo/kviku/otzyvy/,https://irecommend.ru/content/kviku-virtualnaya-kreditnaya-karta,https://otzovik.com/reviews/kviku_com_kz-onlayn-zaymi/,kviku_online,https://vk.com/kviku_online?ysclid=lak4jdxnke802176772,air_loanse,10711.0
+microfin,20,Кнопка Деньги,/microloans/responses/companies/knopkadengi/,https://www.sravni.ru/zaimy/mfo/knopka-dengi/otzyvy/?tag=microcredits,,,,,knopkadengi,11384.0
+microfin,21,VIVA Деньги,/microloans/responses/companies/vivadengi/,https://www.sravni.ru/zaimy/mfo/viva-dengi/otzyvy/,https://irecommend.ru/content/viva-dengi,https://otzovik.com/reviews/mikrozaymi_viva_dengi/,viva_money,https://vk.com/viva_money?ysclid=lak4jvecty503155316,vivadengi,
+microfin,22,Cash-U Finance,/microloans/responses/companies/cash_u/,https://www.sravni.ru/zaimy/mfo/cash-u-finance/otzyvy/,,,cash_u,https://vk.com/cash_u?ysclid=lak4k78eog157365708,cash_u,11132.0
+microfin,23,BelkaCredit,/microloans/responses/companies/belkacredit/,https://www.sravni.ru/zaimy/mfo/belkacredit/otzyvy/?tag=microcredits,,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_belka_credit_russia_samara/,belka_credit,https://vk.com/belka_credit?ysclid=lak4kgh2mu308069606,belkacredit,10977.0
+microfin,24,Купи не копи,/microloans/responses/companies/kupi_ne_kopi/,https://www.sravni.ru/zaimy/mfo/kupi-ne-kopi/otzyvy/,,,,,kupi_ne_kopi,10753.0
+microfin,25,CarMoney,/microloans/responses/companies/carmoney/,https://www.sravni.ru/zaimy/mfo/carmoney/otzyvy/,https://irecommend.ru/content/sait-carmoney-zaimy-pod-pts-1,https://otzovik.com/reviews/avtolombard_carmoney_russia_moscow/,carmoneyru,https://vk.com/carmoneyru?ysclid=lak4ks6tlf323622370,carmoney,10533.0
+microfin,26,МигКредит,/microloans/responses/companies/migkredit/,https://www.sravni.ru/zaimy/mfo/migkredit/otzyvy/,https://irecommend.ru/content/mig-kredit,https://otzovik.com/reviews/kreditnaya_organizaciya_migkredit_russia/,migcredit,https://vk.com/migcredit?ysclid=lak4l3ts87669566798,migkredit,10477.0
+microfin,27,Vivus,/microloans/responses/companies/vivus/,https://www.sravni.ru/zaimy/mfo/vivus/otzyvy/,https://irecommend.ru/content/vivus,https://otzovik.com/reviews/mikrozaym_vivus/,zaimy_online_vivus,https://vk.com/zaimy_online_vivus?ysclid=lak4lbkajn106347667,vivus,10516.0
+microfin,28,Ezaem,/microloans/responses/companies/ezaem/,https://www.sravni.ru/zaimy/mfo/e-zaem/otzyvy/,https://irecommend.ru/content/sait-ezaemru,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_ezaem/,ezaemru,https://vk.com/ezaemru?ysclid=lak4lixoft602801226,ezaem,10692.0
+microfin,29,Займ-Экспресс,/microloans/responses/companies/zaim_express/,https://www.sravni.ru/zaimy/mfo/zajm-ehkspress/otzyvy/,,https://otzovik.com/reviews/kompaniya_zaym_ekspress_russia/,z_express,https://vk.com/z_express?ysclid=lak4lqgofn911505719,zaim_express,10531.0
+microfin,30,Турбозайм,/microloans/responses/companies/turbozajm/,https://www.sravni.ru/zaimy/mfo/turbozajm/otzyvy/,,https://otzovik.com/reviews/mfo_turbozaym_russia/,turbozaimru,https://vk.com/turbozaimru?ysclid=lak4lxdzwp446606983,turbozajm,10718.0
+microfin,31,Отличные наличные,/microloans/responses/companies/otlichnye_nalichnye/,https://www.sravni.ru/zaimy/mfo/otlichnye-nalichnye/otzyvy/,https://irecommend.ru/content/otlichnye-nalichnye,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_otlichnie_nalichnie/,otlnal_ru,https://vk.com/otlnal_ru?ysclid=lak4m54svj495563253,otlichnye_nalichnye,10938.0
+microfin,32,boostra,/microloans/responses/companies/boostra/,https://www.sravni.ru/zaimy/mfo/boostra/otzyvy/,,,boostra_zaim,https://vk.com/boostra_zaim?ysclid=lak4mc6b3n642857051,boostra,11056.0
+microfin,33,ДоброЗайм,/microloans/responses/companies/sammit/,https://www.sravni.ru/zaimy/mfo/dobrozajm/otzyvy/,https://irecommend.ru/content/tsentr-zaimov-mfk-sammit,https://otzovik.com/reviews/mikrofinansovaya_kompaniya_centr_zaymov_russia_moscow/,dobrozaim,https://vk.com/dobrozaim?ysclid=lak4mkwbog681546510,sammit,10497.0
+microfin,34,Krediska,/microloans/responses/companies/krediska/,https://www.sravni.ru/zaimy/mfo/krediska/otzyvy/,,,,,krediska,11476.0
+microfin,35,Контакт кредит,/microloans/responses/companies/contact_credit/,,,,,,contact_credit,10516.0
+microfin,36,Смсфинанс,/microloans/responses/companies/smsfinance/,https://www.sravni.ru/zaimy/mfo/smsfinans/otzyvy/,https://irecommend.ru/content/httpswwwsmsfinanceru,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_smsfinans/,,,smsfinance,10516.0
+microfin,37,CashToYou,/microloans/responses/companies/kangaria/,https://www.sravni.ru/zaimy/mfo/cash-to-you/otzyvy/,https://irecommend.ru/content/mfo-cash-you,https://otzovik.com/reviews/cashtoyou_kredit_bez_problem/,,,kangaria,11267.0
+microfin,38,495credit,/microloans/responses/companies/495credit/,https://www.sravni.ru/zaimy/mfo/495-kredit/otzyvy/,,,mmkcredit,https://vk.com/mmkcredit?ysclid=lak4ndh9r1685629864,495credit,11457.0
+microfin,39,Kredito24,/microloans/responses/companies/kredito24/,https://www.sravni.ru/zaimy/mfo/kredito24/otzyvy/,,https://otzovik.com/reviews/mikrozaymi_kredito24/,zaymvkredito24,https://vk.com/zaymvkredito24?ysclid=lak4nj6swy443576674,kredito24,10686.0
+microfin,40,Moneza,/microloans/responses/companies/moneza/,https://www.sravni.ru/zaimy/mfo/moneza/otzyvy/,https://irecommend.ru/content/sait-monezaru-0,https://otzovik.com/reviews/mfo_moneza_russia_moscow/,monezaru,https://vk.com/monezaru?ysclid=lak4nr4fsy407094616,moneza,10969.0
+microfin,41,КЭШДРАЙВ,/microloans/responses/companies/cashdrive/,https://www.sravni.ru/zaimy/mfo/kehshdrajv/otzyvy/?tag=microcredits,,,,,cashdrive,11186.0
+microfin,42,Центрофинанс,/microloans/responses/companies/centrofinans/,https://www.sravni.ru/zaimy/mfo/centrofinans/otzyvy/,https://irecommend.ru/content/mikrokreditnaya-kompaniya-tsentrofinans-grupp,https://otzovik.com/reviews/set_vidachi_mikrozaymov_centrofinans_russia_berezniki/,centrofinans,https://vk.com/centrofinans?ysclid=lak4o4fzkx30858675,centrofinans,
+microfin,43,Кредиттер,/microloans/responses/companies/creditter/,https://www.sravni.ru/zaimy/mfo/creditter/otzyvy/,,https://otzovik.com/reviews/mikrozaym_creditter_ru_russia_moscow/,creditter,https://vk.com/creditter?ysclid=lak4oaugqj472248604,creditter,11298.0
+microfin,44,One click money,/microloans/responses/companies/oneclickmoney/,https://www.sravni.ru/zaimy/mfo/vanklikmoney/otzyvy/,,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_one_click_money/,oneclickmoney,https://vk.com/oneclickmoney?ysclid=lak4oi591o491485942,oneclickmoney,10925.0
+microfin,45,ФИНТЕРРА,/microloans/responses/companies/finterra/,https://www.sravni.ru/zaimy/mfo/finterra/otzyvy/,,https://otzovik.com/reviews/finterra_rf-mikrokreditnaya_kompaniya_finterra/,fterra,https://vk.com/fterra?ysclid=lak4op6iqt636998192,finterra,10666.0
+microfin,46,Pay P.S.,/microloans/responses/companies/payps/,https://www.sravni.ru/zaimy/mfo/pay-ps/otzyvy/,https://irecommend.ru/content/pay-ps,https://otzovik.com/reviews/mikrofinansovaya_organizaciya_pay_p_s_russia_moscow/,public172341762,https://vk.com/public172341762?ysclid=lak4owwk3k890690755,payps,10626.0
+microfin,47,ZAYMIGO,/microloans/responses/companies/zaymigo/,https://www.sravni.ru/zaimy/mfo/zajmigo-mfk/otzyvy/,,https://otzovik.com/reviews/mikrozaym_zaymigo/,zaymigo,https://vk.com/zaymigo?ysclid=lak4p7a24z928959018,zaymigo,10727.0
+microfin,48,mobicredit,/microloans/responses/companies/mobicredit/,https://www.sravni.ru/zaimy/mfo/mobikredit/otzyvy/,,,mobicredit,https://vk.com/mobicredit?ysclid=lak4pgmzob124520967,mobicredit,10824.0
+microfin,49,БЫСТРОЗАЙМ,/microloans/responses/companies/bystrozaym/,https://www.sravni.ru/zaimy/mfo/bystro-zaym/otzyvy/,,https://otzovik.com/reviews/kompaniya_bistrozaym/,bzaimer,https://vk.com/bzaimer?ysclid=lak4pnxa95999627571,bystrozaym,
+microfin,50,Выручай-Деньги,/microloans/responses/companies/vdplatinum/,https://www.sravni.ru/zaimy/mfo/vyruchaj-dengi/otzyvy/,,,vyruchaidengi,https://vk.com/vyruchaidengi?ysclid=lak4pvw5xo684863460,vdplatinum,
+microfin,51,Платиза,/microloans/responses/companies/platiza/,https://www.sravni.ru/zaimy/mfo/platiza/otzyvy/,,https://otzovik.com/reviews/platiza_ru-zaymi_v_internete/,platiza,https://vk.com/platiza?ysclid=lak4q2ysz8774775166,platiza,10596.0
+microfin,52,CreditSmile,/microloans/responses/companies/credit_smile/,,,https://otzovik.com/reviews/mkk_credismile_russia_rostov-na-donu/,,,credit_smile,
+microfin,53,МикроКлад,/microloans/responses/companies/micro_klad/,https://www.sravni.ru/zaimy/mfo/mikroklad/otzyvy/,,https://otzovik.com/reviews/zaymi_onlayn_mikroklad/,mikroklad,https://vk.com/mikroklad?ysclid=lak4qkfat5348758321,micro_klad,10826.0
+microfin,54,Moneyfaktura,/microloans/responses/companies/moneyfaktura/,https://www.sravni.ru/zaimy/mfo/moneyfaktura/otzyvy/,,https://otzovik.com/reviews/moneyfaktura_ru-onlayn_zaymi/,moneyfaktura,https://vk.com/moneyfaktura?ysclid=lak4qq74rg598678620,moneyfaktura,10649.0
+microfin,55,Деньги в долг,/microloans/responses/companies/dengivdolg/,https://www.sravni.ru/zaimy/mfo/dengi-v-dolg/otzyvy/,,,,,dengivdolg,
+microfin,56,Финансовая уверенность,/microloans/responses/companies/daem_zaem/,https://www.sravni.ru/zaimy/mfo/daem-zaem/otzyvy/,,,,,daem_zaem,
+microfin,57,Fin5,/microloans/responses/companies/fin5/,,,,,,fin5,11361.0
+microfin,58,Paylate,/microloans/responses/companies/paylate/,,https://irecommend.ru/content/paylate,,pl_paylate,https://vk.com/pl_paylate?ysclid=lak4riwa1u801804442,paylate,10638.0
+microfin,59,Микроденьги,/microloans/responses/companies/microdengi/,https://www.sravni.ru/zaimy/mfo/mikrodengi/otzyvy/,,https://otzovik.com/reviews/mikrozaym_mikrodengi_russia_orel/,microdengu,https://vk.com/microdengu?ysclid=lak4rpvv8e698802481,microdengi,

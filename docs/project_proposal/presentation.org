@@ -1,0 +1,26 @@
+#+title: Presentation
+
+* Hook
+Are you curious about the true ethical standards of the companies? Do you worry that relying on official records alone might not give you the full picture? Many people struggle to find reliable information about a company's ethical practices. But what if there was a way to analyze customer feedback from multiple sources and machine learning algorithms, to get a comprehensive understanding of a company's ethics?
+* Title
+My name is Roman Solomatin and I would like to talk about a ethical behavior of companies.
+* Background
+Companies' ethics have been of concern to stakeholders, particularly regarding contentious situations and customer-centric services. Assessing ethical standards is complex, involving evaluating different aspects of a company's operations, such as its business practices, policies, and overall culture. These metrics provide valuable insight into a company's ethical standards.
+* Problem
+Many services that claim to evaluate a company's ethics rely on court cases and other official records, rather than customer feedback, leaving individuals to conduct their own research. This involves reviewing customer feedback from multiple sites, which can be time-consuming and may not always provide a complete or accurate picture. To address this issue, a system is being developed that collects and analyzes customer feedback from multiple websites, news articles, and machine learning algorithms. This system will use natural language processing (NLP) to generate an overall assessment of a company's ethical practices from customer feedback.
+* Limitations & significance
+The initial focus of this research will be in collecting data from sites with customer feedback. The analysis will be carried out using neutral language processing algorithms.
+
+The study aims to provide valuable insights into a company's ethical practices through the analysis of customer feedback and other data. These insights can help stakeholders make informed decisions about interactions with companies.
+* Ethics measurments
+Evaluating a company's ethics is not a one-time endeavor, but an ongoing process that requires continuous monitoring and evaluation of the company's actions, policies and practices over time. This is particularly important given the constantly evolving nature of business conduct and the need to stay ahead of emerging issues and trends.
+
+The importance of ethical behavior in business cannot be overstated. As evidenced by various studies, companies that prioritize ethical behavior tend to achieve greater financial success and better business performance over the long term than those that engage in unethical practices.
+
+Evaluating a company's ethical standards can be approached from several perspectives. From the perspective of the company itself, there may be several factors, such as financial reports and lawsuits. On the other hand, customers can measure ethics by the quality of customer service and the degree to which a company's services are annoying, these metrics will be considered in this project.
+* Text analysis
+In the field of NLP, advances in algorithms have led to improved text analysis techniques. Among these techniques, BERT is considered the most advanced and powerful because it considers both word and sentence context in its processing. The use of Sentence-Bert is proposed to speed up the text analysis process.
+* Methods
+The project aims to use web scraping techniques and APIs to collect companies reviews. The collected reviews will be analyzed using sentiment analysis methods, specifically using a fine-tuned Sentence BERT model, that will be trained for the sentiment analysis. The final output of the model will be a score for each company based on the aggregated reviews, providing understanding of the overall sentiment of the reviews and serving as a basis for making decisions.
+* Conclusion
+This project aims to improve the complex issue of assessing a company's ethical standards by developing a neural network to analyze customer feedback. The use of NLP algorithms, such as sentiment analysis, will play a critical role in extracting valuable insights and generating a score that provides an overall assessment of a company's ethical practices. The results of this project can potentially provide valuable information to customers about which companies are best to work with, to managers about the interaction between employees and customers, and to regulators about the state of affairs within companies.

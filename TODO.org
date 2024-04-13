@@ -1,0 +1,130 @@
+#+title:Esganalysis
+
+* Fixes
+** API
+*** TODO Ready on postgresql health check
+*** DONE check if model id exists in =text/sentences=
+CLOSED: [2022-11-01 Вт 16:21]
+*** NO Run tox command before startup (for parsers)
+CLOSED: [2022-10-18 Вт 12:44]
+- [[https://tox.wiki/en/3.26.0/example/general.html][commands]]
+*** NO add midelware with timings
+CLOSED: [2022-10-18 Вт 22:33]
+*** DONE [#A] add repr to database
+CLOSED: [2022-10-18 Вт 12:43]
+*** DONE [#A] change psycopg2 to asyncpg
+CLOSED: [2022-10-19 Ср 00:40]
+*** DONE pytest async
+CLOSED: [2022-10-18 Вт 18:18]
+*** DONE change status code to request.status
+CLOSED: [2022-11-01 Вт 16:44]
+*** DONE Setup tox
+CLOSED: [2022-10-02 Вс 21:01]
+*** TODO Move send/get requests from class to utils
+*** DONE Проверить как работает парсер МФО для banki.ru
+CLOSED: [2022-11-23 Ср 21:00]
+Когда выгружал сделал text.id = text_sentence.id
+[[file:docs/img/bnkiru_mfo_vtb_problems.png]]
+*** TODO Проверить как парсит остальное irecommend
+*** TODO parser sentences background task
+*** TODO async alembic
+*** TODO bulk insert/update
+*** TODO add FastAPI annotations 0.95.x
+- [[https://github.com/tiangolo/fastapi/releases/tag/0.95.0][release notes]]
+*** Tests
+**** TODO faker + factoryboy
+**** TODO refactor to commit to db instead of api
+**** TODO add different types of type_bank_id
+**** TODO logic tests
+** Parser
+*** DONE update parser state last
+CLOSED: [2022-10-18 Вт 12:43]
+*** DONE browser only for one bank
+CLOSED: [2022-10-18 Вт 12:43]
+*** DONE rename parser utils to common
+CLOSED: [2022-10-18 Вт 12:39]
+*** TODO Refactor vk parser
+**** TODO Use subclass for requests
+*** Tests
+**** TODO tesing parser ([[https://docs.pytest.org/en/latest/how-to/fixtures.html#safe-fixture-structure][link]])
+**** TODO add pytest command for parsers [[https://docs.pytest.org/en/7.1.x/example/simple.html#control-skipping-of-tests-according-to-command-line-option][link]]
+**** TODO integration test in different folder [[https://docs.pytest.org/en/7.1.x/reference/customize.html?highlight=pytest%20ini][link]]
+**** TODO vcr.py [[https://vcrpy.readthedocs.io/en/latest/][(link)]]
+** DONE add readme for subprojects
+CLOSED: [2022-11-01 Вт 16:32]
+** DONE speed up tests
+CLOSED: [2022-10-19 Ср 00:40]
+** TODO make .env file with common variables
+** TODO check mfo parser licence
+* Doc
+** детализация актуальности
++ не понятно какие сервисы
++ Что понимается под этичностью (дать определение)
++ Существуют сервисы, которые оценивают компанию по судебным делам (?), но не дают оценку по отзывам
++ Уточнить цель работы
++
+* Plans
+** Must
+*** DONE [[https://github.com/zhanymkanov/fastapi-best-practices#11-sqlalchemy-set-db-keys-naming-convention][Sqlalchemy naming convention]]
+CLOSED: [2023-03-04 Сб 21:52]
+*** DONE alembic migrations
+CLOSED: [2023-03-04 Сб 21:54]
+*** DONE SQLalchymy 2.0
+CLOSED: [2023-03-04 Сб 21:58]
+*** TODO Nginx reverse proxy [[https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1/][(link)]]
+- [[https://serverfault.com/questions/152745/nginx-proxy-by-request-method][on method]]
+*** TODO different workers for read and write (cqrs)
+*** TODO compress request data with nginx?
+*** TODO nginx reverse proxy (load balancer(?)) maybe there
+https://youtu.be/RfN0B7L4SuM?list=PLEwK9wdS5g0riA4Q_fqcjkv0zYf6HgRGJ
+*** TODO Отдельный воркер для обработки отызвов в предложения
+*** DONE Change docker compose variables for env_file
+CLOSED: [2023-03-04 Сб 21:58]
+- [[https://grafana.com/docs/grafana/latest/administration/provisioning/#using-environment-variables][env variables in grafana]]
+*** DONE Citation for libraries
+CLOSED: [2023-03-04 Сб 21:58]
+** Maybe
+*** DONE Fast api dependencies ([[https://fastapi.tiangolo.com/tutorial/dependencies/][link]])
+CLOSED: [2023-03-04 Сб 21:58]
+*** DONE compress large sentences with gzip header (maybe with nginx)
+CLOSED: [2023-03-04 Сб 21:58]
+*** TODO customize fastapi logger ([[https://medium.com/1mgofficial/how-to-override-uvicorn-logger-in-fastapi-using-loguru-124133cdcd4e][link]])
+*** TODO Caching requests
+*** TODO fastapi background tsks
+* Examples
+** Как мы попробовали DDD, CQRS и Event Sourcing и какие выводы сделали ([[https://habr.com/ru/post/313110/][link]])
+** CQRS ([[https://www.cosmicpython.com/book/chapter_12_cqrs.html][link]])
+** Code examples
+- https://github.com/Rustem/toptal-blog-celery-toy-ex
+- https://github.com/arshadansari27/simple-analytics-engine/tree/cqrs
+- https://github.com/iamsarthakjoshi/python-celery-rabbitmq
+- https://github.com/szwang/celery-example
+- https://github.com/rabbitmq/rabbitmq-tutorials/tree/main/python
+- https://github.com/GregaVrbancic/fastapi-celery
+- https://medium.com/@rijinswaminathan/use-celery-and-rabbitmq-with-django-rest-api-d803681d8c86
+- https://medium.com/cuddle-ai/async-architecture-with-fastapi-celery-and-rabbitmq-c7d029030377
+- https://github.com/tiangolo/full-stack-fastapi-postgresql
+- https://github.com/tiangolo/full-stack-fastapi-couchbase
+* Models
+** MDF
+- fix
+#+begin_example
+Traceback (most recent call last):
+  File "/app/app/main.py", line 47, in <module>
+    main()
+  File "/app/app/main.py", line 40, in main
+    sentences = get_sentences(sources, model_class.model_id)
+  File "/app/app/api.py", line 43, in get_sentences
+    return [Sentence(**text) for text in response.json()["items"]]
+  File "/usr/local/lib/python3.10/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+#+end_example
+* Libs
+** Json
+- https://github.com/ultrajson/ultrajson
+- https://github.com/ijl/orjson
+* Docs
+** DONE =citar-export-local-bib-file=
+CLOSED: [2023-03-15 Ср 20:44]
+* Спросить про то как обучалась модель и про сайт будет или нет

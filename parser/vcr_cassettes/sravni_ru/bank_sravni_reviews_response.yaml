@@ -1,0 +1,197 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.28.1
+    method: GET
+    uri: https://www.sravni.ru/proxy-reviews/reviews?filterBy=withRates&isClient=False&newIds=True&orderBy=byDate&pageIndex=1&pageSize=10&withVotes=True&reviewObjectId=5bb4f768245bc22a520a6115&reviewObjectType=bank
+  response:
+    body:
+      string: "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301
+        Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n<script defer
+        src=\"https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993\"
+        integrity=\"sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==\"
+        data-cf-beacon='{\"rayId\":\"7884b1845ad9b8be\",\"token\":\"437221aa093f43cbb7479242baa46ddc\",\"version\":\"2022.11.3\",\"si\":100}'
+        crossorigin=\"anonymous\"></script>\n</body>\r\n</html>\r\n"
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7884b1845ad9b8be-AMS
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/html
+      Date:
+      - Thu, 12 Jan 2023 08:58:58 GMT
+      Location:
+      - /proxy-reviews/reviews/?filterBy=withRates&isClient=False&newIds=True&orderBy=byDate&pageIndex=1&pageSize=10&withVotes=True&reviewObjectId=5bb4f768245bc22a520a6115&reviewObjectType=bank
+      Server:
+      - cloudflare
+      Server-Timing:
+      - cf-q-config;dur=2.9999991966179e-06
+      Set-Cookie:
+      - __cf_bm=X1kjC_7HqRhsnue1oxy6Giy.N2OsKQcW_rxOv82VqJk-1673513938-0-AXxWFNrgSM+Mu9gPZHMIVWfHEtuzzuDjcxUekZh/DlpASWP65S8ZWhwzx1MOmqmulypw0ujVpL5wGzgWc64K4jZJ2a0lfhhIr2aGaQziDBcH;
+        path=/; expires=Thu, 12-Jan-23 09:28:58 GMT; domain=.sravni.ru; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=Fz_nzDo1tqMhHp7A7R_UmJHQrIGTJXUrskJ4BTY3Z6Q-1673513938691-0-604800000;
+        path=/; domain=.sravni.ru; HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+    status:
+      code: 301
+      message: Moved Permanently
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - __cf_bm=X1kjC_7HqRhsnue1oxy6Giy.N2OsKQcW_rxOv82VqJk-1673513938-0-AXxWFNrgSM+Mu9gPZHMIVWfHEtuzzuDjcxUekZh/DlpASWP65S8ZWhwzx1MOmqmulypw0ujVpL5wGzgWc64K4jZJ2a0lfhhIr2aGaQziDBcH;
+        _cfuvid=Fz_nzDo1tqMhHp7A7R_UmJHQrIGTJXUrskJ4BTY3Z6Q-1673513938691-0-604800000
+      User-Agent:
+      - python-requests/2.28.1
+    method: GET
+    uri: https://www.sravni.ru/proxy-reviews/reviews/?filterBy=withRates&isClient=False&newIds=True&orderBy=byDate&pageIndex=1&pageSize=10&withVotes=True&reviewObjectId=5bb4f768245bc22a520a6115&reviewObjectType=bank
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Accept-CH:
+      - Sec-CH-Prefers-Color-Scheme
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7884b1855c4cb8be-AMS
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Critical-CH:
+      - Sec-CH-Prefers-Color-Scheme
+      Date:
+      - Thu, 12 Jan 2023 08:58:58 GMT
+      ETag:
+      - W/"4d68-4YFxBhioyGdPgs/vHlngqUBdcJA"
+      Image-Version:
+      - 4974e37
+      Server:
+      - cloudflare
+      Server-Timing:
+      - cf-q-config;dur=7.0000005507609e-06
+      Set-Cookie:
+      - .ASPXANONYMOUS=w6A5Va_3Pk2RL-newkHZqw; Max-Age=31536000; Domain=.sravni.ru;
+        Path=/
+      - _SL_=6.83.; Expires=Fri, 12 Jan 2024 08:58:58 GMT; Domain=.sravni.ru; Path=/
+      - _ipl=6.83.; Max-Age=86400; Domain=.sravni.ru; Path=/
+      - __utmz=utmccn%3d(not%20set)%7cutmcct%3d(not%20set)%7cutmcmd%3d(none)%7cutmcsr%3d(direct)%7cutmctr%3d(not%20set);
+        Max-Age=15811200; Domain=.sravni.ru; Path=/
+      - __utmx=utmccn%3d(not%20set)%7cutmcct%3d(not%20set)%7cutmcmd%3d(none)%7cutmcsr%3d(direct)%7cutmctr%3d(not%20set);
+        Max-Age=1800; Domain=.sravni.ru; Path=/
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Sec-CH-Prefers-Color-Scheme
+      X-Response-Time:
+      - 61ms
+    status:
+      code: 200
+      message: OK
+version: 1

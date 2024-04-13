@@ -1,0 +1,915 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "Texts API",
+    "description": "API for DB",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/text/sentences": {
+      "get": {
+        "tags": [
+          "text"
+        ],
+        "summary": "Get Sentences",
+        "operationId": "get_sentences_text_sentences_get",
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "title": "Sources",
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "new"
+              ]
+            },
+            "name": "sources",
+            "in": "query"
+          },
+          {
+            "required": true,
+            "schema": {
+              "title": "Model Id",
+              "type": "integer"
+            },
+            "name": "model_id",
+            "in": "query"
+          },
+          {
+            "required": false,
+            "schema": {
+              "title": "Limit",
+              "type": "integer",
+              "default": 100
+            },
+            "name": "limit",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetTextSentences"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/text/": {
+      "post": {
+        "tags": [
+          "text"
+        ],
+        "summary": "Post Text",
+        "operationId": "post_text_text__post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostTextItem"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/model/": {
+      "get": {
+        "tags": [
+          "model"
+        ],
+        "summary": "Get Models",
+        "operationId": "get_models_model__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetModel"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "model"
+        ],
+        "summary": "Post Model",
+        "operationId": "post_model_model__post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostModel"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostModelResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/model/type/": {
+      "get": {
+        "tags": [
+          "model"
+        ],
+        "summary": "Get Model Types",
+        "operationId": "get_model_types_model_type__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetModelType"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/text_result/": {
+      "get": {
+        "tags": [
+          "text_result"
+        ],
+        "summary": "Get Text Results",
+        "operationId": "get_text_results_text_result__get",
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "title": "Text Id",
+              "type": "integer"
+            },
+            "name": "text_id",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetTextResult"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "text_result"
+        ],
+        "summary": "Post Text Result",
+        "operationId": "post_text_result_text_result__post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "title": "Texts",
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/PostTextResult"
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/source/": {
+      "get": {
+        "tags": [
+          "source"
+        ],
+        "summary": "Get Sources",
+        "operationId": "get_sources_source__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetSource"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "source"
+        ],
+        "summary": "Post Source",
+        "operationId": "post_source_source__post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSource"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostSourceResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/source/item/{source_id}": {
+      "get": {
+        "tags": [
+          "source"
+        ],
+        "summary": "Get Source",
+        "operationId": "get_source_source_item__source_id__get",
+        "parameters": [
+          {
+            "required": true,
+            "schema": {
+              "title": "Source Id",
+              "type": "integer"
+            },
+            "name": "source_id",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Source"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/source/type/": {
+      "get": {
+        "tags": [
+          "source"
+        ],
+        "summary": "Get Source Types",
+        "operationId": "get_source_types_source_type__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetSourceTypes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/bank/": {
+      "get": {
+        "tags": [
+          "bank"
+        ],
+        "summary": "Get Banks",
+        "operationId": "get_banks_bank__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetBankList"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Bank": {
+        "title": "Bank",
+        "required": [
+          "id",
+          "bank_name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "bank_name": {
+            "title": "Bank Name",
+            "type": "string"
+          }
+        }
+      },
+      "CreateSource": {
+        "title": "CreateSource",
+        "required": [
+          "site",
+          "source_type"
+        ],
+        "type": "object",
+        "properties": {
+          "site": {
+            "title": "Site",
+            "type": "string"
+          },
+          "source_type": {
+            "title": "Source Type",
+            "type": "string"
+          }
+        }
+      },
+      "GetBankList": {
+        "title": "GetBankList",
+        "required": [
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "title": "Items",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Bank"
+            }
+          }
+        }
+      },
+      "GetModel": {
+        "title": "GetModel",
+        "required": [
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "title": "Items",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GetModelItem"
+            }
+          }
+        }
+      },
+      "GetModelItem": {
+        "title": "GetModelItem",
+        "required": [
+          "id",
+          "name",
+          "model_type_id",
+          "model_type"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "model_type_id": {
+            "title": "Model Type Id",
+            "type": "integer"
+          },
+          "model_type": {
+            "title": "Model Type",
+            "type": "string"
+          }
+        }
+      },
+      "GetModelType": {
+        "title": "GetModelType",
+        "required": [
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "title": "Items",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ModelType"
+            }
+          }
+        }
+      },
+      "GetSource": {
+        "title": "GetSource",
+        "required": [
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "title": "Items",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Source"
+            }
+          }
+        }
+      },
+      "GetSourceTypes": {
+        "title": "GetSourceTypes",
+        "required": [
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "title": "Items",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SourceTypes"
+            }
+          }
+        }
+      },
+      "GetTextResult": {
+        "title": "GetTextResult",
+        "required": [
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "title": "Items",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GetTextResultItem"
+            }
+          }
+        }
+      },
+      "GetTextResultItem": {
+        "title": "GetTextResultItem",
+        "required": [
+          "id",
+          "text_sentence_id",
+          "result",
+          "model_id"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "text_sentence_id": {
+            "title": "Text Sentence Id",
+            "type": "integer"
+          },
+          "result": {
+            "title": "Result",
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "model_id": {
+            "title": "Model Id",
+            "type": "integer"
+          }
+        }
+      },
+      "GetTextSentences": {
+        "title": "GetTextSentences",
+        "required": [
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "title": "Items",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TextSentence"
+            }
+          }
+        }
+      },
+      "HTTPValidationError": {
+        "title": "HTTPValidationError",
+        "type": "object",
+        "properties": {
+          "detail": {
+            "title": "Detail",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            }
+          }
+        }
+      },
+      "ModelType": {
+        "title": "ModelType",
+        "required": [
+          "id",
+          "model_type"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "model_type": {
+            "title": "Model Type",
+            "type": "string"
+          }
+        }
+      },
+      "PostModel": {
+        "title": "PostModel",
+        "required": [
+          "model_name",
+          "model_type"
+        ],
+        "type": "object",
+        "properties": {
+          "model_name": {
+            "title": "Model Name",
+            "type": "string"
+          },
+          "model_type": {
+            "title": "Model Type",
+            "type": "string"
+          }
+        }
+      },
+      "PostModelResponse": {
+        "title": "PostModelResponse",
+        "required": [
+          "model_id"
+        ],
+        "type": "object",
+        "properties": {
+          "model_id": {
+            "title": "Model Id",
+            "type": "integer"
+          }
+        }
+      },
+      "PostSourceResponse": {
+        "title": "PostSourceResponse",
+        "required": [
+          "source_id"
+        ],
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "title": "Source Id",
+            "type": "integer"
+          }
+        }
+      },
+      "PostTextItem": {
+        "title": "PostTextItem",
+        "required": [
+          "items"
+        ],
+        "type": "object",
+        "properties": {
+          "items": {
+            "title": "Items",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TextItem"
+            }
+          },
+          "parser_state": {
+            "title": "Parser State",
+            "type": "string"
+          },
+          "date": {
+            "title": "Date",
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "PostTextResult": {
+        "title": "PostTextResult",
+        "required": [
+          "text_result",
+          "model_id",
+          "text_sentence_id"
+        ],
+        "type": "object",
+        "properties": {
+          "text_result": {
+            "title": "Text Result",
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "model_id": {
+            "title": "Model Id",
+            "type": "integer"
+          },
+          "text_sentence_id": {
+            "title": "Text Sentence Id",
+            "type": "integer"
+          }
+        }
+      },
+      "Source": {
+        "title": "Source",
+        "required": [
+          "id",
+          "site",
+          "source_type_id"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "site": {
+            "title": "Site",
+            "type": "string"
+          },
+          "source_type_id": {
+            "title": "Source Type Id",
+            "type": "integer"
+          },
+          "parser_state": {
+            "title": "Parser State",
+            "type": "string"
+          },
+          "last_update": {
+            "title": "Last Update",
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "SourceTypes": {
+        "title": "SourceTypes",
+        "required": [
+          "id",
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          }
+        }
+      },
+      "TextItem": {
+        "title": "TextItem",
+        "required": [
+          "source_id",
+          "date",
+          "title",
+          "text",
+          "bank_id",
+          "link"
+        ],
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "title": "Source Id",
+            "type": "integer"
+          },
+          "date": {
+            "title": "Date",
+            "type": "string",
+            "format": "date-time"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "bank_id": {
+            "title": "Bank Id",
+            "type": "string"
+          },
+          "link": {
+            "title": "Link",
+            "type": "string"
+          },
+          "comments_num": {
+            "title": "Comments Num",
+            "type": "integer"
+          }
+        }
+      },
+      "TextSentence": {
+        "title": "TextSentence",
+        "required": [
+          "id",
+          "text_id",
+          "sentence",
+          "sentence_num"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "integer"
+          },
+          "text_id": {
+            "title": "Text Id",
+            "type": "integer"
+          },
+          "sentence": {
+            "title": "Sentence",
+            "type": "string"
+          },
+          "sentence_num": {
+            "title": "Sentence Num",
+            "type": "integer"
+          }
+        }
+      },
+      "ValidationError": {
+        "title": "ValidationError",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "type": "object",
+        "properties": {
+          "loc": {
+            "title": "Location",
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            }
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
