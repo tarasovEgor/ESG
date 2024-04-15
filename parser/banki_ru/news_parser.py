@@ -66,6 +66,34 @@ class BankiNews(BankiReviews):
                     self.logger.warning(f"News link {url} is not valid bank {bank.bank_name} {page_num=}")
         return news_links
 
+    # def news_from_links(self, bank: BankiRuBase, news_urls: list[str]) -> list[Text]:
+    #     texts = []
+    #     for num_news, url in enumerate(news_urls):
+    #         self.logger.debug(f"[{num_news+1}/{len(news_urls)}] Getting news for {bank.bank_name} from {url}")
+    #         page = get_page_from_url(url)
+    #         if page is None:
+    #             continue
+    #         title = page.find("h1", class_="text-header-0")
+    #         date_text = page.find("span", class_="l51e0a7a5")
+    #         news_text_element = page.find("div", {"itemprop": "articleBody"})
+    #         if title == "" or title is None or date_text == "" or date_text is None or news_text_element is None:
+    #             self.logger.warning(f"Can't parse news from {url}")
+    #             continue
+    #         paragraphs = [elem.text for elem in news_text_element.find_all("p")]  # type: ignore
+    #         news_text = " ".join(paragraphs)
+    #         texts.append(
+    #             Text(
+    #                 link=url,
+    #                 date=date_text.text,
+    #                 title=title.text,
+    #                 text=news_text,
+    #                 source_id=self.source.id,
+    #                 bank_id=bank.bank_id,
+    #             )
+    #         )
+    #     return texts
+
+
     def news_from_links(self, bank: BankiRuBase, news_urls: list[str]) -> list[Text]:
         texts = []
         for num_news, url in enumerate(news_urls):
@@ -79,12 +107,20 @@ class BankiNews(BankiReviews):
             if title == "" or title is None or date_text == "" or date_text is None or news_text_element is None:
                 self.logger.warning(f"Can't parse news from {url}")
                 continue
-            paragraphs = [elem.text for elem in news_text_element.find_all("p")]  # type: ignore
+            paragraphs = [elem.text for elem in news_text_element.find_all("p")]
             news_text = " ".join(paragraphs)
+            try:
+                # Attempt to parse the date string using the expected format
+                parsed_date = datetime.strptime(date_text.text, '%d.%m.%Y %H:%M')
+                # Convert the parsed date to the expected format
+                formatted_date = parsed_date.strftime('%Y-%m-%d %H:%M:%S')
+            except ValueError:
+                self.logger.warning(f"Failed to parse date from {url}: {date_text.text}")
+                continue
             texts.append(
                 Text(
                     link=url,
-                    date=date_text.text,
+                    date=formatted_date,
                     title=title.text,
                     text=news_text,
                     source_id=self.source.id,
@@ -92,6 +128,7 @@ class BankiNews(BankiReviews):
                 )
             )
         return texts
+
 
     def get_page_bank_reviews(self, bank: BankiRuBase, page_num: int, parsed_time: datetime) -> list[Text]:
         links = self.get_news_links(bank, parsed_time, page_num)

@@ -57,6 +57,13 @@ class BankiReviews(BankiBase):
     def get_pages_num(self, bank: BankiRuBase) -> int | None:
         params = {"page": 1, "bank": bank.bank_code}
         response_json = get_json_from_url("https://www.banki.ru/services/responses/list/ajax/", params=params)
-        if response_json is None:
+        if response_json is None or "total" not in response_json:
             return None
-        return int(response_json["total"]) // 25 + 1
+        return (int(response_json["total"])) // 25 + 1
+
+    # def get_pages_num(self, bank: BankiRuBase) -> int | None:
+    #     params = {"page": 1, "bank": bank.bank_code}
+    #     response_json = get_json_from_url("https://www.banki.ru/services/responses/list/ajax/", params=params)
+    #     if response_json is None:
+    #         return None
+    #     return int(response_json["total"]) // 25 + 1

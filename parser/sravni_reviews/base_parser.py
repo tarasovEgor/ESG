@@ -106,9 +106,15 @@ class BaseSravniReviews(BaseParser):
     def get_review_link(self, bank_info: SravniBankInfo, review: dict[str, Any]) -> str:
         raise NotImplementedError
 
+    from datetime import datetime
+
+
     def parse(self) -> None:
         start_time = datetime.now()
         current_source = api.get_source_by_id(self.source.id)  # type: ignore
+        if current_source is None:
+            self.logger.error("Failed to retrieve source from API")
+            return
         _, parsed_bank_id, parsed_time = self.get_source_params(current_source)
         for i, bank_info in enumerate(self.bank_list):
             self.logger.info(f"[{i + 1}/{len(self.bank_list)}] download reviews for {bank_info.alias}")
@@ -124,3 +130,23 @@ class BaseSravniReviews(BaseParser):
             self.logger.debug(f"Time for {bank_info.alias} send reviews: {datetime.now() - time}")
         patch_source = PatchSource(last_update=start_time)
         self.source = api.patch_source(self.source.id, patch_source)  # type: ignore
+
+
+    # def parse(self) -> None:
+    #     start_time = datetime.now()
+    #     current_source = api.get_source_by_id(self.source.id)  # type: ignore
+    #     _, parsed_bank_id, parsed_time = self.get_source_params(current_source)
+    #     for i, bank_info in enumerate(self.bank_list):
+    #         self.logger.info(f"[{i + 1}/{len(self.bank_list)}] download reviews for {bank_info.alias}")
+    #         if bank_info.bank_id <= parsed_bank_id:
+    #             continue
+    #         reviews = self.get_reviews(parsed_time, bank_info)
+    #         time = datetime.now()
+    #         api.send_texts(
+    #             TextRequest(
+    #                 items=reviews, parsed_state=json.dumps({"bank_id": bank_info.bank_id}), last_update=parsed_time
+    #             )
+    #         )
+    #         self.logger.debug(f"Time for {bank_info.alias} send reviews: {datetime.now() - time}")
+    #     patch_source = PatchSource(last_update=start_time)
+    #     self.source = api.patch_source(self.source.id, patch_source)  # type: ignore

@@ -66,30 +66,30 @@ services:
     ports:
       - 8000:30930
 
-  api-https:
-    depends_on:
-      database:
-        condition: service_healthy
-    build: api
-    env_file:
-      - .env
-    command:
-      [
-        "uvicorn",
-        "app.main:app",
-        "--host",
-        "0.0.0.0",
-        "--port",
-        "8000",
-        "--ssl-keyfile",
-        "privkey.pem",
-        "--ssl-certfile",
-        "fullchain.pem",
-      ]
-    environment:
-      POSTGRES_DB: "database"
-    ports:
-      - 443:8000
+  # api-https:
+  #   depends_on:
+  #     database:
+  #       condition: service_healthy
+  #   build: api
+  #   env_file:
+  #     - .env
+  #   command:
+  #     [
+  #       "uvicorn",
+  #       "app.main:app",
+  #       "--host",
+  #       "0.0.0.0",
+  #       "--port",
+  #       "8000",
+  #       "--ssl-keyfile",
+  #       "privkey.pem",
+  #       "--ssl-certfile",
+  #       "fullchain.pem",
+  #     ]
+  #   environment:
+  #     POSTGRES_DB: "database"
+  #   ports:
+  #     - 443:8000
 
   sravni-reviews-parser:
     depends_on:

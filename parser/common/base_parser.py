@@ -15,6 +15,7 @@ class BaseParser(ABC):
 
     def get_source_params(self, source: Source) -> tuple[int, int, datetime]:
         self.logger.debug(f"get source params {source=}")
+        # parsed_time = source.last_update
         parsed_time = datetime.today() - timedelta(days=7)
         if parsed_time is None:
             parsed_time = datetime.fromtimestamp(1)

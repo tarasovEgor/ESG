@@ -1,4 +1,8 @@
 import requests
+import json
+
+from json.decoder import JSONDecodeError
+
 
 from common.schemes import (
     ApiBank,
@@ -47,14 +51,30 @@ def get_mfo_list() -> list[ApiMfo]:
     return banks
 
 
+# def send_source(source: SourceRequest) -> Source:
+#     url = URL + "/source/"
+#     logger.debug(f"Send source to {url}")
+#     r = requests.post(url, json=source.dict()) #!!!
+#     if r.status_code != 200:
+#         logger.error(r.json())
+#         raise Exception("Error send source")
+#     return Source(**r.json())
+
+
 def send_source(source: SourceRequest) -> Source:
     url = URL + "/source/"
     logger.debug(f"Send source to {url}")
     r = requests.post(url, json=source.dict())
-    if r.status_code != 200:
-        logger.error(r.json())
-        raise Exception("Error send source")
-    return Source(**r.json())
+    try:
+        r.raise_for_status()  
+        return Source(**r.json())
+    except JSONDecodeError:
+        logger.error("Failed to decode JSON from server response")
+        return None  
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Request error: {e}")
+        return None 
+
 
 
 def get_source_by_id(source_id: int) -> Source:
@@ -91,7 +111,110 @@ def send_texts(text: TextRequest) -> None:
     request = {"items": items, "date": last_update, "parser_state": text.parsed_state}
     url = URL + "/text/"
     logger.debug(f"Send texts to {url}")
-    r = requests.post(url, json=request)
-    if r.status_code != 200:
-        logger.error(r.json())
-        raise Exception(r.json())
+    try:
+        r = requests.post(url, json=request)
+        r.raise_for_status()
+    except Exception as e:
+        try:
+            error_detail = r.json().get('detail')
+            if error_detail == 'Source or bank not found':
+                # raise SourceBankNotFoundError("Source or bank not found")
+                error_message = "Source or bank not found"
+                logger.error(error_message)
+                return
+            else:
+                error_message = f"Error sending texts: {error_detail}" if error_detail is not None else "Error sending texts: Unexpected response format"
+        except (json.JSONDecodeError, AttributeError):
+            error_message = "Error sending texts: Unexpected response format"
+        logger.error(error_message)
+        return
+
+class SourceBankNotFoundError(Exception):
+    pass
+
+
+# VER. 1
+
+# def send_texts(text: TextRequest) -> None:
+#     if len(text.items) == 0:
+#         return None
+#     items = []
+#     for item in text.items:
+#         d = item.dict()
+#         d["date"] = d["date"].isoformat()
+#         items.append(d)
+#     last_update = None
+#     if text.last_update:
+#         last_update = text.last_update.isoformat()
+#     request = {"items": items, "date": last_update, "parser_state": text.parsed_state}
+#     url = URL + "/text/"
+#     logger.debug(f"Send texts to {url}")
+#     r = requests.post(url, json=request)
+#     if r.status_code != 200:
+#         try:
+#             error_detail = r.json().get('detail')
+#             if error_detail == 'Source or bank not found':
+#                 raise SourceBankNotFoundError("Source or bank not found")
+#             else:
+#                 error_message = f"Error sending texts: {error_detail}" if error_detail is not None else "Error sending texts: Unexpected response format"
+#         except json.JSONDecodeError:
+#             error_message = f"Error sending texts: Unexpected response format"
+#         logger.error(error_message)
+#         raise Exception(error_message)
+
+# class SourceBankNotFoundError(Exception):
+#     pass
+
+
+# VER. 0
+
+# def send_texts(text: TextRequest) -> None:
+#     if len(text.items) == 0:
+#         return None
+#     items = []
+#     for item in text.items:
+#         d = item.dict()
+#         d["date"] = d["date"].isoformat()
+#         items.append(d)
+#     last_update = None
+#     if text.last_update:
+#         last_update = text.last_update.isoformat()
+#     request = {"items": items, "date": last_update, "parser_state": text.parsed_state}
+#     url = URL + "/text/"
+#     logger.debug(f"Send texts to {url}")
+#     r = requests.post(url, json=request)
+#     if r.status_code != 200:
+#         try:
+#             error_detail = r.json().get('detail')
+#             if error_detail == 'Source or bank not found':
+#                 raise SourceBankNotFoundError("Source or bank not found")
+#             else:
+#                 error_message = f"Error sending texts: {error_detail}"
+#         except json.JSONDecodeError:
+#             error_message = f"Error sending texts: Unexpected response format"
+#         logger.error(error_message)
+#         raise Exception(error_message)
+
+# class SourceBankNotFoundError(Exception):
+#     pass
+
+# INITIAL FUNC BELOW
+
+# def send_texts(text: TextRequest) -> None:
+#     if len(text.items) == 0:
+#         return None
+#     items = []
+#     for item in text.items:
+#         d = item.dict()
+#         d["date"] = d["date"].isoformat()
+#         items.append(d)
+#     last_update = None
+#     if text.last_update:
+#         last_update = text.last_update.isoformat()
+#     request = {"items": items, "date": last_update, "parser_state": text.parsed_state}
+#     url = URL + "/text/"
+#     logger.debug(f"Send texts to {url}")
+#     r = requests.post(url, json=request)
+#     if r.status_code != 200:
+#         logger.error(r.json())
+#         raise Exception(r.json())

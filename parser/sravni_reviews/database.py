@@ -1,6 +1,7 @@
-from sqlalchemy import Column, Integer, String
-
+from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy.sql import func
 from common.database import Base
+# from datetime import datetime
 from sravni_reviews.schemes import SravniRuBaseScheme
 
 
@@ -15,6 +16,8 @@ class SravniBankInfo(Base):
     bank_name: str = Column(String)
     bank_full_name: str = Column(String)
     bank_official_name: str = Column(String)
+    # time_created: datetime = Column(DateTime(timezone=True), server_default=func.now())
+
 
     @staticmethod
     def from_pydantic(bank: SravniRuBaseScheme) -> "SravniBankInfo":
@@ -26,4 +29,5 @@ class SravniBankInfo(Base):
             bank_full_name=bank.bank_full_name,
             bank_official_name=bank.bank_official_name,
             bank_id=bank.bank_id,
+            # time_created=bank.time_created
         )
