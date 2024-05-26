@@ -1,9 +1,0 @@
-name: SVC train
-
-python_env: python_env.yaml
-
-entry_points:
-  main:
-    parameters:
-      dataset: {type: str, default: 'bow'}
-    command: python train_svc.py
